@@ -1428,7 +1428,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
     right: 20px;
     left: auto;
 }
-.contact-us-form .form-inner-c {
+/* .contact-us-form .form-inner-c {
     background: url("@/assets/img/background/contact-us-form.svg");
     padding: 60px 80px;
     background-repeat: no-repeat;
@@ -1442,7 +1442,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
 .contact-us-form .select .selectBtn {
     border: 1px solid #A4BCE6;
     background: #ffffff;
-}
+} */
 .price-list-count {
     border-radius: 50%;
 }
