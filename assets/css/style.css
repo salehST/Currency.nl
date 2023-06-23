@@ -1343,7 +1343,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
 .brands-s a:hover svg path {
     fill: #112954;
 }
-.form-inner {
+/* .form-inner {
     background: url("@/assets/img/background/collaborate-form.svg");
     z-index: 1;
     background-repeat: no-repeat;
@@ -1398,7 +1398,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
 
 .form-btn svg path {
     transition: 250ms;
-}
+} */
 .contact-inner .contact-icon {
     position: absolute;
     left: 50%;
