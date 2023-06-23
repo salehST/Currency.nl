@@ -151,7 +151,7 @@
                             <div class="flex items-center justify-center  w-full p-4 pb-3">
                                 <div class="buy-button group w-full"><a
                                         class="bg-[#0051FF] text-white flex items-center text-xs font-semibold py-2 px-7 justify-center w-full rounded-full"
-                                        href="">Compare<img src="/_nuxt/assets/img/arrow-right-white-bg.svg"
+                                        href="">Compare<img src="@/assets/img/arrow-right-white-bg.svg"
                                             class="h-3 w-3 ml-3 translate-x-0 transition group-hover:translate-x-1"
                                             alt=""></a></div>
                             </div>
