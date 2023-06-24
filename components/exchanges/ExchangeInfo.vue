@@ -26,7 +26,7 @@
                                 class="text-[#A3ABBD] font-normal focus:outline-none active:outline-none w-full lg:w-auto hover:outline-none text-sm bg-transparent"
                                 placeholder="Search the Exchange">
                             <button type="submit"
-                                class="bg-[#0051FF] relative right-0 text-white font-normal text-sm rounded-full py-2 px-7">Search</button>
+                                class="bg-cblue relative right-0 text-white font-normal text-sm rounded-full py-2 px-7">Search</button>
                         </form>
                     </div>
                 </div>
@@ -150,7 +150,7 @@
                             </div>
                             <div class="flex items-center justify-center  w-full p-4 pb-3">
                                 <div class="buy-button group w-full"><a
-                                        class="bg-[#0051FF] text-white flex items-center text-xs font-semibold py-2 px-7 justify-center w-full rounded-full"
+                                        class="bg-cblue text-white flex items-center text-xs font-semibold py-2 px-7 justify-center w-full rounded-full"
                                         href="">Compare<img src="@/assets/img/arrow-right-white-bg.svg"
                                             class="h-3 w-3 ml-3 translate-x-0 transition group-hover:translate-x-1"
                                             alt=""></a></div>
@@ -186,7 +186,7 @@
                                                         alt=""> <span
                                                         class="rating-ex mx-2 px-2 border-r border-l border-[#F1F5FE] font-normal text-sm text-black flex items-center gap-1">
                                                         <img src="@/assets/img/icons/star.svg" alt=""> 5.0</span> <a href=""
-                                                        class="group text-[10px] text-[#0051FF] font-normal flex items-center">Visit
+                                                        class="group text-[10px] text-cblue font-normal flex items-center">Visit
                                                         Exchange <img src="@/assets/img/arrow-right-blue.svg"
                                                             class="ml-1 translate-x-0 transition group-hover:translate-x-1"
                                                             alt=""></a>
@@ -261,7 +261,7 @@
                                                         alt=""> <span
                                                         class="rating-ex mx-2 px-2 border-r border-l border-[#F1F5FE] font-normal text-sm text-black flex items-center gap-1">
                                                         <img src="@/assets/img/icons/star.svg" alt=""> 5.0</span> <a href=""
-                                                        class="group text-[10px] text-[#0051FF] font-normal flex items-center">Visit
+                                                        class="group text-[10px] text-cblue font-normal flex items-center">Visit
                                                         Exchange <img src="@/assets/img/arrow-right-blue.svg"
                                                             class="ml-1 translate-x-0 transition group-hover:translate-x-1"
                                                             alt=""></a>
@@ -336,7 +336,7 @@
                                                         alt=""> <span
                                                         class="rating-ex mx-2 px-2 border-r border-l border-[#F1F5FE] font-normal text-sm text-black flex items-center gap-1">
                                                         <img src="@/assets/img/icons/star.svg" alt=""> 5.0</span> <a href=""
-                                                        class="group text-[10px] text-[#0051FF] font-normal flex items-center">Visit
+                                                        class="group text-[10px] text-cblue font-normal flex items-center">Visit
                                                         Exchange <img src="@/assets/img/arrow-right-blue.svg"
                                                             class="ml-1 translate-x-0 transition group-hover:translate-x-1"
                                                             alt=""></a>
@@ -411,7 +411,7 @@
                                                         alt=""> <span
                                                         class="rating-ex mx-2 px-2 border-r border-l border-[#F1F5FE] font-normal text-sm text-black flex items-center gap-1">
                                                         <img src="@/assets/img/icons/star.svg" alt=""> 5.0</span> <a href=""
-                                                        class="group text-[10px] text-[#0051FF] font-normal flex items-center">Visit
+                                                        class="group text-[10px] text-cblue font-normal flex items-center">Visit
                                                         Exchange <img src="@/assets/img/arrow-right-blue.svg"
                                                             class="ml-1 translate-x-0 transition group-hover:translate-x-1"
                                                             alt=""></a>
@@ -486,7 +486,7 @@
                                                         alt=""> <span
                                                         class="rating-ex mx-2 px-2 border-r border-l border-[#F1F5FE] font-normal text-sm text-black flex items-center gap-1">
                                                         <img src="@/assets/img/icons/star.svg" alt=""> 5.0</span> <a href=""
-                                                        class="group text-[10px] text-[#0051FF] font-normal flex items-center">Visit
+                                                        class="group text-[10px] text-cblue font-normal flex items-center">Visit
                                                         Exchange <img src="@/assets/img/arrow-right-blue.svg"
                                                             class="ml-1 translate-x-0 transition group-hover:translate-x-1"
                                                             alt=""></a>
@@ -561,7 +561,7 @@
                                                         alt=""> <span
                                                         class="rating-ex mx-2 px-2 border-r border-l border-[#F1F5FE] font-normal text-sm text-black flex items-center gap-1">
                                                         <img src="@/assets/img/icons/star.svg" alt=""> 5.0</span> <a href=""
-                                                        class="group text-[10px] text-[#0051FF] font-normal flex items-center">Visit
+                                                        class="group text-[10px] text-cblue font-normal flex items-center">Visit
                                                         Exchange <img src="@/assets/img/arrow-right-blue.svg"
                                                             class="ml-1 translate-x-0 transition group-hover:translate-x-1"
                                                             alt=""></a>
@@ -636,7 +636,7 @@
                                                         alt=""> <span
                                                         class="rating-ex mx-2 px-2 border-r border-l border-[#F1F5FE] font-normal text-sm text-black flex items-center gap-1">
                                                         <img src="@/assets/img/icons/star.svg" alt=""> 5.0</span> <a href=""
-                                                        class="group text-[10px] text-[#0051FF] font-normal flex items-center">Visit
+                                                        class="group text-[10px] text-cblue font-normal flex items-center">Visit
                                                         Exchange <img src="@/assets/img/arrow-right-blue.svg"
                                                             class="ml-1 translate-x-0 transition group-hover:translate-x-1"
                                                             alt=""></a>
@@ -711,7 +711,7 @@
                                                         alt=""> <span
                                                         class="rating-ex mx-2 px-2 border-r border-l border-[#F1F5FE] font-normal text-sm text-black flex items-center gap-1">
                                                         <img src="@/assets/img/icons/star.svg" alt=""> 5.0</span> <a href=""
-                                                        class="group text-[10px] text-[#0051FF] font-normal flex items-center">Visit
+                                                        class="group text-[10px] text-cblue font-normal flex items-center">Visit
                                                         Exchange <img src="@/assets/img/arrow-right-blue.svg"
                                                             class="ml-1 translate-x-0 transition group-hover:translate-x-1"
                                                             alt=""></a>

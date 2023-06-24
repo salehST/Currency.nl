@@ -18,7 +18,7 @@
                                     </svg>
                                 </span>
                                 <input type="text" class="text-[#A3ABBD] font-normal focus:outline-none active:outline-none hover:outline-none text-sm bg-transparent" placeholder="Search the Exchange">
-                                <button type="submit" class="bg-[#0051FF] text-white font-normal text-sm rounded-full py-2 px-7">Search</button>
+                                <button type="submit" class="bg-cblue text-white font-normal text-sm rounded-full py-2 px-7">Search</button>
                             </form>
                         </div>
                     </div>
@@ -85,7 +85,7 @@
                                     <div class="w-[52%]">
                                         <div class="font-normal text-2xl text-black mb-2 flex items-center">FXTM Give your more <span class="text-sm font-normal text-black flex items-center ml-3"><img src="@/assets/img/icons/rank1.svg" class="mr-1" alt=""> Rank</span>
                                         </div>
-                                        <div class="flex items-center"><img src="@/assets/img/flag/united-states.svg" alt=""> <span class="rating-ex mx-2 px-2 border-r border-l border-[#F1F5FE] font-normal text-sm text-black flex items-center gap-1"> <img src="@/assets/img/icons/star.svg" alt=""> 5.0</span> <a href="" class="group text-[10px] text-[#0051FF] font-normal flex items-center">Visit Exchange <img src="@/assets/img/arrow-right-blue.svg" class="ml-1 translate-x-0 transition group-hover:translate-x-1" alt=""></a></div>
+                                        <div class="flex items-center"><img src="@/assets/img/flag/united-states.svg" alt=""> <span class="rating-ex mx-2 px-2 border-r border-l border-[#F1F5FE] font-normal text-sm text-black flex items-center gap-1"> <img src="@/assets/img/icons/star.svg" alt=""> 5.0</span> <a href="" class="group text-[10px] text-cblue font-normal flex items-center">Visit Exchange <img src="@/assets/img/arrow-right-blue.svg" class="ml-1 translate-x-0 transition group-hover:translate-x-1" alt=""></a></div>
                                         <div class="flex items-center gap-2 mt-5 mb-6">
                                             <div class="bg-[#F3F6FD] text-center rounded-md py-2 px-3">
                                                 <div class="font-semibold text-base text-black leading-4">0</div>
@@ -194,7 +194,7 @@
                                     <div class="w-3/5">
                                         <div class="font-normal text-2xl text-black mb-2 flex items-center">Pepperstone <span class="text-sm font-normal text-black flex items-center ml-3"><img src="@/assets/img/icons/rank2.svg" class="mr-1" alt=""> Rank</span>
                                         </div>
-                                        <div class="flex items-center"><img src="@/assets/img/flag/japan.svg" alt=""> <span class="rating-ex mx-2 px-2 border-r border-l border-[#F1F5FE] font-normal text-sm text-black flex items-center gap-1"> <img src="@/assets/img/icons/star.svg" alt=""> 5.0</span> <a href="" class="group text-[10px] text-[#0051FF] font-normal flex items-center">Visit Exchange <img src="@/assets/img/arrow-right-blue.svg" class="ml-1 translate-x-0 transition group-hover:translate-x-1" alt=""></a></div>
+                                        <div class="flex items-center"><img src="@/assets/img/flag/japan.svg" alt=""> <span class="rating-ex mx-2 px-2 border-r border-l border-[#F1F5FE] font-normal text-sm text-black flex items-center gap-1"> <img src="@/assets/img/icons/star.svg" alt=""> 5.0</span> <a href="" class="group text-[10px] text-cblue font-normal flex items-center">Visit Exchange <img src="@/assets/img/arrow-right-blue.svg" class="ml-1 translate-x-0 transition group-hover:translate-x-1" alt=""></a></div>
                                         <div class="flex items-center gap-2 mt-5 mb-6">
                                             <div class="bg-[#F3F6FD] text-center rounded-md py-2 px-3">
                                                 <div class="font-semibold text-base text-black leading-4">0</div>
@@ -304,7 +304,7 @@
                                     <div class="w-3/5">
                                         <div class="font-normal text-2xl text-black mb-2 flex items-center">Easy Markets <span class="text-sm font-normal text-black flex items-center ml-3"><img src="@/assets/img/icons/rank3.svg" class="mr-1" alt=""> Rank</span>
                                         </div>
-                                        <div class="flex items-center"><img src="@/assets/img/flag/united-kingdom.svg" alt=""> <span class="rating-ex mx-2 px-2 border-r border-l border-[#F1F5FE] font-normal text-sm text-black flex items-center gap-1"> <img src="@/assets/img/icons/star.svg" alt=""> 5.0</span> <a href="" class="group text-[10px] text-[#0051FF] font-normal flex items-center">Visit Exchange <img src="@/assets/img/arrow-right-blue.svg" class="ml-1 translate-x-0 transition group-hover:translate-x-1" alt=""></a></div>
+                                        <div class="flex items-center"><img src="@/assets/img/flag/united-kingdom.svg" alt=""> <span class="rating-ex mx-2 px-2 border-r border-l border-[#F1F5FE] font-normal text-sm text-black flex items-center gap-1"> <img src="@/assets/img/icons/star.svg" alt=""> 5.0</span> <a href="" class="group text-[10px] text-cblue font-normal flex items-center">Visit Exchange <img src="@/assets/img/arrow-right-blue.svg" class="ml-1 translate-x-0 transition group-hover:translate-x-1" alt=""></a></div>
                                         <div class="flex items-center gap-2 mt-5 mb-6">
                                             <div class="bg-[#F3F6FD] text-center rounded-md py-2 px-3">
                                                 <div class="font-semibold text-base text-black leading-4">0</div>
@@ -415,7 +415,7 @@
                                         <div class="font-normal text-2xl text-black mb-2 flex items-center">AVA Trade 
                                             <!-- <span class="text-sm font-normal text-black flex items-center ml-3"><img src="@/assets/img/icons/rank3.svg" class="mr-1" alt=""> Rank</span> -->
                                         </div>
-                                        <div class="flex items-center"><img src="@/assets/img/flag/flag04.svg" alt=""> <span class="rating-ex mx-2 px-2 border-r border-l border-[#F1F5FE] font-normal text-sm text-black flex items-center gap-1"> <img src="@/assets/img/icons/star.svg" alt=""> 5.0</span> <a href="" class="group text-[10px] text-[#0051FF] font-normal flex items-center">Visit Exchange <img src="@/assets/img/arrow-right-blue.svg" class="ml-1 translate-x-0 transition group-hover:translate-x-1" alt=""></a></div>
+                                        <div class="flex items-center"><img src="@/assets/img/flag/flag04.svg" alt=""> <span class="rating-ex mx-2 px-2 border-r border-l border-[#F1F5FE] font-normal text-sm text-black flex items-center gap-1"> <img src="@/assets/img/icons/star.svg" alt=""> 5.0</span> <a href="" class="group text-[10px] text-cblue font-normal flex items-center">Visit Exchange <img src="@/assets/img/arrow-right-blue.svg" class="ml-1 translate-x-0 transition group-hover:translate-x-1" alt=""></a></div>
                                         <div class="flex items-center gap-2 mt-5 mb-6">
                                             <div class="bg-[#F3F6FD] text-center rounded-md py-2 px-3">
                                                 <div class="font-semibold text-base text-black leading-4">0</div>
@@ -526,7 +526,7 @@
                                         <div class="font-normal text-2xl text-black mb-2 flex items-center">Vantage 
                                             <!-- <span class="text-sm font-normal text-black flex items-center ml-3"><img src="@/assets/img/icons/rank3.svg" class="mr-1" alt=""> Rank</span> -->
                                         </div>
-                                        <div class="flex items-center"><img src="@/assets/img/flag/china.svg" alt=""> <span class="rating-ex mx-2 px-2 border-r border-l border-[#F1F5FE] font-normal text-sm text-black flex items-center gap-1"> <img src="@/assets/img/icons/star.svg" alt=""> 5.0</span> <a href="" class="group text-[10px] text-[#0051FF] font-normal flex items-center">Visit Exchange <img src="@/assets/img/arrow-right-blue.svg" class="ml-1 translate-x-0 transition group-hover:translate-x-1" alt=""></a></div>
+                                        <div class="flex items-center"><img src="@/assets/img/flag/china.svg" alt=""> <span class="rating-ex mx-2 px-2 border-r border-l border-[#F1F5FE] font-normal text-sm text-black flex items-center gap-1"> <img src="@/assets/img/icons/star.svg" alt=""> 5.0</span> <a href="" class="group text-[10px] text-cblue font-normal flex items-center">Visit Exchange <img src="@/assets/img/arrow-right-blue.svg" class="ml-1 translate-x-0 transition group-hover:translate-x-1" alt=""></a></div>
                                         <div class="flex items-center gap-2 mt-5 mb-6">
                                             <div class="bg-[#F3F6FD] text-center rounded-md py-2 px-3">
                                                 <div class="font-semibold text-base text-black leading-4">0</div>
@@ -638,7 +638,7 @@
                                         <div class="font-normal text-2xl text-black mb-2 flex items-center">IG 
                                             <!-- <span class="text-sm font-normal text-black flex items-center ml-3"><img src="@/assets/img/icons/rank3.svg" class="mr-1" alt=""> Rank</span> -->
                                         </div>
-                                        <div class="flex items-center"><img src="@/assets/img/flag/united-states.svg" alt=""> <span class="rating-ex mx-2 px-2 border-r border-l border-[#F1F5FE] font-normal text-sm text-black flex items-center gap-1"> <img src="@/assets/img/icons/star.svg" alt=""> 5.0</span> <a href="" class="group text-[10px] text-[#0051FF] font-normal flex items-center">Visit Exchange <img src="@/assets/img/arrow-right-blue.svg" class="ml-1 translate-x-0 transition group-hover:translate-x-1" alt=""></a></div>
+                                        <div class="flex items-center"><img src="@/assets/img/flag/united-states.svg" alt=""> <span class="rating-ex mx-2 px-2 border-r border-l border-[#F1F5FE] font-normal text-sm text-black flex items-center gap-1"> <img src="@/assets/img/icons/star.svg" alt=""> 5.0</span> <a href="" class="group text-[10px] text-cblue font-normal flex items-center">Visit Exchange <img src="@/assets/img/arrow-right-blue.svg" class="ml-1 translate-x-0 transition group-hover:translate-x-1" alt=""></a></div>
                                         <div class="flex items-center gap-2 mt-5 mb-6">
                                             <div class="bg-[#F3F6FD] text-center rounded-md py-2 px-3">
                                                 <div class="font-semibold text-base text-black leading-4">0</div>
@@ -749,7 +749,7 @@
                                         <div class="font-normal text-2xl text-black mb-2 flex items-center">XM 
                                             <!-- <span class="text-sm font-normal text-black flex items-center ml-3"><img src="@/assets/img/icons/rank3.svg" class="mr-1" alt=""> Rank</span> -->
                                         </div>
-                                        <div class="flex items-center"><img src="@/assets/img/flag/japan.svg" alt=""> <span class="rating-ex mx-2 px-2 border-r border-l border-[#F1F5FE] font-normal text-sm text-black flex items-center gap-1"> <img src="@/assets/img/icons/star.svg" alt=""> 5.0</span> <a href="" class="group text-[10px] text-[#0051FF] font-normal flex items-center">Visit Exchange <img src="@/assets/img/arrow-right-blue.svg" class="ml-1 translate-x-0 transition group-hover:translate-x-1" alt=""></a></div>
+                                        <div class="flex items-center"><img src="@/assets/img/flag/japan.svg" alt=""> <span class="rating-ex mx-2 px-2 border-r border-l border-[#F1F5FE] font-normal text-sm text-black flex items-center gap-1"> <img src="@/assets/img/icons/star.svg" alt=""> 5.0</span> <a href="" class="group text-[10px] text-cblue font-normal flex items-center">Visit Exchange <img src="@/assets/img/arrow-right-blue.svg" class="ml-1 translate-x-0 transition group-hover:translate-x-1" alt=""></a></div>
                                         <div class="flex items-center gap-2 mt-5 mb-6">
                                             <div class="bg-[#F3F6FD] text-center rounded-md py-2 px-3">
                                                 <div class="font-semibold text-base text-black leading-4">0</div>
@@ -860,7 +860,7 @@
                                         <div class="font-normal text-2xl text-black mb-2 flex items-center">Libertex 
                                             <!-- <span class="text-sm font-normal text-black flex items-center ml-3"><img src="@/assets/img/icons/rank3.svg" class="mr-1" alt=""> Rank</span> -->
                                         </div>
-                                        <div class="flex items-center"><img src="@/assets/img/flag/china.svg" alt=""> <span class="rating-ex mx-2 px-2 border-r border-l border-[#F1F5FE] font-normal text-sm text-black flex items-center gap-1"> <img src="@/assets/img/icons/star.svg" alt=""> 5.0</span> <a href="" class="group text-[10px] text-[#0051FF] font-normal flex items-center">Visit Exchange <img src="@/assets/img/arrow-right-blue.svg" class="ml-1 translate-x-0 transition group-hover:translate-x-1" alt=""></a></div>
+                                        <div class="flex items-center"><img src="@/assets/img/flag/china.svg" alt=""> <span class="rating-ex mx-2 px-2 border-r border-l border-[#F1F5FE] font-normal text-sm text-black flex items-center gap-1"> <img src="@/assets/img/icons/star.svg" alt=""> 5.0</span> <a href="" class="group text-[10px] text-cblue font-normal flex items-center">Visit Exchange <img src="@/assets/img/arrow-right-blue.svg" class="ml-1 translate-x-0 transition group-hover:translate-x-1" alt=""></a></div>
                                         <div class="flex items-center gap-2 mt-5 mb-6">
                                             <div class="bg-[#F3F6FD] text-center rounded-md py-2 px-3">
                                                 <div class="font-semibold text-base text-black leading-4">0</div>
@@ -971,7 +971,7 @@
                                         <div class="font-normal text-2xl text-black mb-2 flex items-center">Iron FX 
                                             <!-- <span class="text-sm font-normal text-black flex items-center ml-3"><img src="@/assets/img/icons/rank3.svg" class="mr-1" alt=""> Rank</span> -->
                                         </div>
-                                        <div class="flex items-center"><img src="@/assets/img/flag/united-kingdom.svg" alt=""> <span class="rating-ex mx-2 px-2 border-r border-l border-[#F1F5FE] font-normal text-sm text-black flex items-center gap-1"> <img src="@/assets/img/icons/star.svg" alt=""> 5.0</span> <a href="" class="group text-[10px] text-[#0051FF] font-normal flex items-center">Visit Exchange <img src="@/assets/img/arrow-right-blue.svg" class="ml-1 translate-x-0 transition group-hover:translate-x-1" alt=""></a></div>
+                                        <div class="flex items-center"><img src="@/assets/img/flag/united-kingdom.svg" alt=""> <span class="rating-ex mx-2 px-2 border-r border-l border-[#F1F5FE] font-normal text-sm text-black flex items-center gap-1"> <img src="@/assets/img/icons/star.svg" alt=""> 5.0</span> <a href="" class="group text-[10px] text-cblue font-normal flex items-center">Visit Exchange <img src="@/assets/img/arrow-right-blue.svg" class="ml-1 translate-x-0 transition group-hover:translate-x-1" alt=""></a></div>
                                         <div class="flex items-center gap-2 mt-5 mb-6">
                                             <div class="bg-[#F3F6FD] text-center rounded-md py-2 px-3">
                                                 <div class="font-semibold text-base text-black leading-4">0</div>

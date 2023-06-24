@@ -1,9 +1,8 @@
 <template>
     <div class="call-to-action relative top-sec max-w-[1068px] mx-auto mb-[30px]">
         <div class="w-full flex text-center mt-6">
-            <h2 class="text-[32px] md:text-5xl font-bold mx-auto leading-9 md:leading-[57px] mb-5 "><span class="flex"><span
-                        class="strick-line-inline">Prices</span> <img src="@/assets/img/big-coin.svg" class="ml-2"
-                        alt=""></span></h2>
+            <h2 class="text-[32px] text-primary md:text-5xl font-bold mx-auto leading-9 md:leading-[57px] mb-5 "><span class="flex"><span
+                        class="strick-line-inline">Prices</span></span></h2>
         </div>
         <p class="text-[#6B6C6F] text-base font-normal leading-8 max-w-3xl text-center mx-auto">Monitor capitalization,
             price, daily volume, and price changes of any coin in real time!

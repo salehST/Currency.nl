@@ -1,9 +1,9 @@
 <template>
     <section class="bg-white w-full p-10 md:p-12">
-        <div class="container mx-auto max-w-screen-xl">  <!-- container start -->
+        <div class="container mx-auto max-w-screen-xl page-heading">  <!-- container start -->
             <div class="call-to-action relative top-sec max-w-[1068px] mx-auto">
-        <div class="w-full flex text-center mt-6">
-            <h2 class="text-[32px] md:text-5xl font-bold mx-auto leading-9 md:leading-[57px] mb-5 "><span class="flex"><span class="strick-line-inline">Exchanges that sell Binance</span>  </span></h2>            
+        <div class="w-full flex text-left md:text-center mt-6">
+            <h2 class="text-[32px] text-primary md:text-5xl font-bold mx-auto leading-9 md:leading-[57px] mb-5 ">Exchanges that sell Binance</h2>            
         </div>
     </div>     
         </div>  <!-- container end -->
@@ -14,8 +14,8 @@
         <div class="filter-inner">
            
 
-            <div class="show-result flex items-start justify-between">
-                <div class="filter-options w-56">
+            <div class="show-result flex flex-col md:flex-row gap-6 items-start justify-between">
+                <div class="filter-options w-full md:w-56">
                     <div class="filter-wrapper">
                         <div class="filter-option-list bg-white rounded-[10px] mb-6">
                             <h4 class="text-sm font-semibold text-black p-4 border-b border-[#DEE4F1] flex items-center">
@@ -62,20 +62,38 @@
                         </div>
                     </div>
                 </div>
-                <div class="filter-result max-w-[812px] w-full relative mb-24">
+                <div class="filter-result w-full md:max-w-[812px] relative mb-24">
                     <div class="text-xs font-normal text-black mb-3 w-full">4.567 Exchanges Found</div>
                     
                     <div class="single-ex-info block bg-white rounded-[20px] w-full mb-5">
                         <div class="ex-info-inner w-full  pl-8 pt-4 pb-12 flex items-start">
-                            <div class="logo">
+                            <div class="logo md:flex hidden">
                                 <img src="@/assets/img/exchange/Bitvavo.png" alt="">
                             </div>
                             <div class="ex-detail ml-3 mt-1  w-full">
-                                <div class="detail-top flex items-end justify-between">
-                                    <div class="w-[360px]">
-                                        <div class="font-normal text-2xl text-black mb-2 flex items-center">Bitvavo <span class="text-sm font-normal text-black flex items-center ml-3"><img src="@/assets/img/icons/rank1.svg" class="mr-1" alt=""> Rank</span>
+                                <div class="detail-top flex flex-col md:flex-row items-end justify-between">
+                                    <div class="ex-detail-inn-top w-full md:w-3/5">
+                                        <div class="flex items-center gap-3">
+                                            <div class="flex md:hidden logo">
+                                                <img src="@/assets/img/exchange/Bitvavo.png" alt="">
+                                            </div>
+                                            <div class="">
+                                                <div class="font-normal text-2xl text-black mb-2 flex items-center">Bitvavo
+                                                    <span class="text-sm font-normal text-black flex items-center ml-3"><img
+                                                            src="@/assets/img/icons/rank1.svg" class="mr-1" alt="">
+                                                        Rank</span>
+                                                </div>
+                                                <div class="flex items-center"><img src="@/assets/img/flag/flag01.svg"
+                                                        alt=""> <span
+                                                        class="rating-ex mx-2 px-2 border-r border-l border-[#F1F5FE] font-normal text-sm text-black flex items-center gap-1">
+                                                        <img src="@/assets/img/icons/star.svg" alt=""> 5.0</span> <a href=""
+                                                        class="group text-[10px] text-cblue font-normal flex items-center">Visit
+                                                        Exchange <img src="@/assets/img/arrow-right-blue.svg"
+                                                            class="ml-1 translate-x-0 transition group-hover:translate-x-1"
+                                                            alt=""></a>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="flex items-center"><img src="@/assets/img/flag/flag01.svg" alt=""> <span class="rating-ex mx-2 px-2 border-r border-l border-[#F1F5FE] font-normal text-sm text-black flex items-center gap-1"> <img src="@/assets/img/icons/star.svg" alt=""> 5.0</span> <a href="" class="group text-[10px] text-[#0051FF] font-normal flex items-center">Visit Exchange <img src="@/assets/img/arrow-right-blue.svg" class="ml-1 translate-x-0 transition group-hover:translate-x-1" alt=""></a></div>
                                         <div class="flex items-center gap-2 mt-5 mb-6">
                                             <div class="bg-[#F3F6FD] text-center rounded-md py-2 px-3">
                                                 <div class="font-semibold text-base text-black leading-4">842</div>
@@ -86,12 +104,13 @@
                                                 <div class="text-[#6B6C6F] text-[10px] font-normal">Top Pair</div>
                                             </div>
                                             <div class="bg-[#F3F6FD] text-center rounded-md py-2 px-3">
-                                                <div class="font-semibold text-base text-black leading-4">10Billion USD</div>
+                                                <div class="font-semibold text-base text-black leading-4">10Billion USD
+                                                </div>
                                                 <div class="text-[#6B6C6F] text-[10px] font-normal">24hr Volume</div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="w-[310px] mb-6">
+                                    <div class="w-full md:w-2/5 mb-6">
                                         <div class="mb-5 text-left">
                                             <div class="font-normal text-black text-xs mb-2">Properties</div>
                                             <img src="@/assets/img/icons/group-icons-prop.svg" alt="">
@@ -102,12 +121,12 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="flex items-center justify-between">
-                                    <div class="ex-text w-[360px]">
+                                <div class="flex  flex-col md:flex-row items-center justify-between">
+                                    <div class="ex-text w-full md:w-[360px]">
                                         <h5 class="font-semibold text-base text-black mb-[6px]">About this Exchange</h5>
                                         <p class="font-normal text-xs text-[#6B6C6F] mb-3 ellipsis-p">They combine broker and exchange and are currently the fastest growing exchange in the Netherlands. Due to the ease of this platform, they quickly managed to conquer their place in the market. Bitvavo is known for the simplicity and ease of the platform, which makes it very suitable for both beginners and experienced traders. Because they have built the entire platform into a cryptocurrency exchange.</p>
                                     </div>
-                                    <div class="w-[310px]">
+                                    <div class="w-full md:w-[310px]">
                                         <div class="flex items-center gap-2 justify-start mb-4">
                                             <div class="w-[132px]">
                                                 <div class="font-semibold text-2xl text-black">€22.479.18</div>
@@ -120,7 +139,7 @@
                                         </div>
                                         <div class="buttons-bt flex items-center gap-2 justify-start">
                                             <a href="" class="text-[#43547B] bg-[#D1D8E8] transition hover:bg-[#b7c2da] text-center font-semibold text-sm rounded-lg py-2.5 w-[132px]">Review</a>
-                                            <button type="button" class="bg-[#0051FF] text-white font-semibold  text-sm text-center rounded-lg py-2.5 w-[132px] transition opacity-100 hover:opacity-90 flex items-center justify-center gap-2.5">Buy Now <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <button type="button" class="bg-cblue text-white font-semibold  text-sm text-center rounded-lg py-2.5 w-[132px] transition opacity-100 hover:opacity-90 flex items-center justify-center gap-2.5">Buy Now <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M6.6875 2.5625H2.5625V10.4375H10.4375V6.3125M10.4375 2.5625L6.3125 6.6875M8.5625 1.8125H11.1875V4.4375" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                             </svg>
                                             </button>
@@ -132,15 +151,33 @@
                     </div>
                     <div class="single-ex-info block bg-white rounded-[20px] w-full mb-5">
                         <div class="ex-info-inner w-full  pl-8 pt-4 pb-12 flex items-start">
-                            <div class="logo">
+                            <div class="logo md:flex hidden">
                                 <img src="@/assets/img/exchange/OKEX.png" alt="">
                             </div>
                             <div class="ex-detail ml-3 mt-1  w-full">
-                                <div class="detail-top flex items-end justify-between">
-                                    <div class="w-[360px]">
-                                        <div class="font-normal text-2xl text-black mb-2 flex items-center">OKEX <span class="text-sm font-normal text-black flex items-center ml-3"><img src="@/assets/img/icons/rank2.svg" class="mr-1" alt=""> Rank</span>
+                                <div class="detail-top flex flex-col md:flex-row items-end justify-between">
+                                    <div class="ex-detail-inn-top w-full md:w-3/5">
+                                        <div class="flex items-center gap-3">
+                                            <div class="flex md:hidden logo">
+                                                <img src="@/assets/img/exchange/OKEX.png" alt="">
+                                            </div>
+                                            <div class="">
+                                                <div class="font-normal text-2xl text-black mb-2 flex items-center">OKEX
+                                                    <span class="text-sm font-normal text-black flex items-center ml-3"><img
+                                                            src="@/assets/img/icons/rank2.svg" class="mr-1" alt="">
+                                                        Rank</span>
+                                                </div>
+                                                <div class="flex items-center"><img src="@/assets/img/flag/flag02.svg"
+                                                        alt=""> <span
+                                                        class="rating-ex mx-2 px-2 border-r border-l border-[#F1F5FE] font-normal text-sm text-black flex items-center gap-1">
+                                                        <img src="@/assets/img/icons/star.svg" alt=""> 5.0</span> <a href=""
+                                                        class="group text-[10px] text-cblue font-normal flex items-center">Visit
+                                                        Exchange <img src="@/assets/img/arrow-right-blue.svg"
+                                                            class="ml-1 translate-x-0 transition group-hover:translate-x-1"
+                                                            alt=""></a>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="flex items-center"><img src="@/assets/img/flag/flag01.svg" alt=""> <span class="rating-ex mx-2 px-2 border-r border-l border-[#F1F5FE] font-normal text-sm text-black flex items-center gap-1"> <img src="@/assets/img/icons/star.svg" alt=""> 5.0</span> <a href="" class="group text-[10px] text-[#0051FF] font-normal flex items-center">Visit Exchange <img src="@/assets/img/arrow-right-blue.svg" class="ml-1 translate-x-0 transition group-hover:translate-x-1" alt=""></a></div>
                                         <div class="flex items-center gap-2 mt-5 mb-6">
                                             <div class="bg-[#F3F6FD] text-center rounded-md py-2 px-3">
                                                 <div class="font-semibold text-base text-black leading-4">842</div>
@@ -151,12 +188,13 @@
                                                 <div class="text-[#6B6C6F] text-[10px] font-normal">Top Pair</div>
                                             </div>
                                             <div class="bg-[#F3F6FD] text-center rounded-md py-2 px-3">
-                                                <div class="font-semibold text-base text-black leading-4">10Billion USD</div>
+                                                <div class="font-semibold text-base text-black leading-4">10Billion USD
+                                                </div>
                                                 <div class="text-[#6B6C6F] text-[10px] font-normal">24hr Volume</div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="w-[310px] mb-6">
+                                    <div class="w-full md:w-2/5 mb-6">
                                         <div class="mb-5 text-left">
                                             <div class="font-normal text-black text-xs mb-2">Properties</div>
                                             <img src="@/assets/img/icons/group-icons-prop.svg" alt="">
@@ -167,12 +205,12 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="flex items-center justify-between">
-                                    <div class="ex-text w-[360px]">
+                                <div class="flex  flex-col md:flex-row items-center justify-between">
+                                    <div class="ex-text w-full md:w-[360px]">
                                         <h5 class="font-semibold text-base text-black mb-[6px]">About this Exchange</h5>
                                         <p class="font-normal text-xs text-[#6B6C6F] mb-3 ellipsis-p">They combine broker and exchange and are currently the fastest growing exchange in the Netherlands. Due to the ease of this platform, they quickly managed to conquer their place in the market. Bitvavo is known for the simplicity and ease of the platform, which makes it very suitable for both beginners and experienced traders. Because they have built the entire platform into a cryptocurrency exchange.</p>
                                     </div>
-                                    <div class="w-[310px]">
+                                    <div class="w-full md:w-[310px]">
                                         <div class="flex items-center gap-2 justify-start mb-4">
                                             <div class="w-[132px]">
                                                 <div class="font-semibold text-2xl text-black">€22.479.18</div>
@@ -185,7 +223,7 @@
                                         </div>
                                         <div class="buttons-bt flex items-center gap-2 justify-start">
                                             <a href="" class="text-[#43547B] bg-[#D1D8E8] transition hover:bg-[#b7c2da] text-center font-semibold text-sm rounded-lg py-2.5 w-[132px]">Review</a>
-                                            <button type="button" class="bg-[#0051FF] text-white font-semibold  text-sm text-center rounded-lg py-2.5 w-[132px] transition opacity-100 hover:opacity-90 flex items-center justify-center gap-2.5">Buy Now <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <button type="button" class="bg-cblue text-white font-semibold  text-sm text-center rounded-lg py-2.5 w-[132px] transition opacity-100 hover:opacity-90 flex items-center justify-center gap-2.5">Buy Now <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M6.6875 2.5625H2.5625V10.4375H10.4375V6.3125M10.4375 2.5625L6.3125 6.6875M8.5625 1.8125H11.1875V4.4375" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                             </svg>
                                             </button>
@@ -197,15 +235,33 @@
                     </div>
                     <div class="single-ex-info block bg-white rounded-[20px] w-full mb-5">
                         <div class="ex-info-inner w-full  pl-8 pt-4 pb-12 flex items-start">
-                            <div class="logo">
+                            <div class="logo md:flex hidden">
                                 <img src="@/assets/img/exchange/Huobi_Global.png" alt="">
                             </div>
                             <div class="ex-detail ml-3 mt-1  w-full">
-                                <div class="detail-top flex items-end justify-between">
-                                    <div class="w-[360px]">
-                                        <div class="font-normal text-2xl text-black mb-2 flex items-center">Huobi Global <span class="text-sm font-normal text-black flex items-center ml-3"><img src="@/assets/img/icons/rank3.svg" class="mr-1" alt=""> Rank</span>
+                                <div class="detail-top flex flex-col md:flex-row items-end justify-between">
+                                    <div class="ex-detail-inn-top w-full md:w-3/5">
+                                        <div class="flex items-center gap-3">
+                                            <div class="flex md:hidden logo">
+                                                <img src="@/assets/img/exchange/Huobi_Global.png" alt="">
+                                            </div>
+                                            <div class="">
+                                                <div class="font-normal text-2xl text-black mb-2 flex items-center">Huobi Global
+                                                    <span class="text-sm font-normal text-black flex items-center ml-3"><img
+                                                            src="@/assets/img/icons/rank3.svg" class="mr-1" alt="">
+                                                        Rank</span>
+                                                </div>
+                                                <div class="flex items-center"><img src="@/assets/img/flag/flag03.svg"
+                                                        alt=""> <span
+                                                        class="rating-ex mx-2 px-2 border-r border-l border-[#F1F5FE] font-normal text-sm text-black flex items-center gap-1">
+                                                        <img src="@/assets/img/icons/star.svg" alt=""> 5.0</span> <a href=""
+                                                        class="group text-[10px] text-cblue font-normal flex items-center">Visit
+                                                        Exchange <img src="@/assets/img/arrow-right-blue.svg"
+                                                            class="ml-1 translate-x-0 transition group-hover:translate-x-1"
+                                                            alt=""></a>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="flex items-center"><img src="@/assets/img/flag/flag01.svg" alt=""> <span class="rating-ex mx-2 px-2 border-r border-l border-[#F1F5FE] font-normal text-sm text-black flex items-center gap-1"> <img src="@/assets/img/icons/star.svg" alt=""> 5.0</span> <a href="" class="group text-[10px] text-[#0051FF] font-normal flex items-center">Visit Exchange <img src="@/assets/img/arrow-right-blue.svg" class="ml-1 translate-x-0 transition group-hover:translate-x-1" alt=""></a></div>
                                         <div class="flex items-center gap-2 mt-5 mb-6">
                                             <div class="bg-[#F3F6FD] text-center rounded-md py-2 px-3">
                                                 <div class="font-semibold text-base text-black leading-4">842</div>
@@ -216,12 +272,13 @@
                                                 <div class="text-[#6B6C6F] text-[10px] font-normal">Top Pair</div>
                                             </div>
                                             <div class="bg-[#F3F6FD] text-center rounded-md py-2 px-3">
-                                                <div class="font-semibold text-base text-black leading-4">10Billion USD</div>
+                                                <div class="font-semibold text-base text-black leading-4">10Billion USD
+                                                </div>
                                                 <div class="text-[#6B6C6F] text-[10px] font-normal">24hr Volume</div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="w-[310px] mb-6">
+                                    <div class="w-full md:w-2/5 mb-6">
                                         <div class="mb-5 text-left">
                                             <div class="font-normal text-black text-xs mb-2">Properties</div>
                                             <img src="@/assets/img/icons/group-icons-prop.svg" alt="">
@@ -232,12 +289,12 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="flex items-center justify-between">
-                                    <div class="ex-text w-[360px]">
+                                <div class="flex  flex-col md:flex-row items-center justify-between">
+                                    <div class="ex-text w-full md:w-[360px]">
                                         <h5 class="font-semibold text-base text-black mb-[6px]">About this Exchange</h5>
                                         <p class="font-normal text-xs text-[#6B6C6F] mb-3 ellipsis-p">They combine broker and exchange and are currently the fastest growing exchange in the Netherlands. Due to the ease of this platform, they quickly managed to conquer their place in the market. Bitvavo is known for the simplicity and ease of the platform, which makes it very suitable for both beginners and experienced traders. Because they have built the entire platform into a cryptocurrency exchange.</p>
                                     </div>
-                                    <div class="w-[310px]">
+                                    <div class="w-full md:w-[310px]">
                                         <div class="flex items-center gap-2 justify-start mb-4">
                                             <div class="w-[132px]">
                                                 <div class="font-semibold text-2xl text-black">€22.479.18</div>
@@ -250,7 +307,7 @@
                                         </div>
                                         <div class="buttons-bt flex items-center gap-2 justify-start">
                                             <a href="" class="text-[#43547B] bg-[#D1D8E8] transition hover:bg-[#b7c2da] text-center font-semibold text-sm rounded-lg py-2.5 w-[132px]">Review</a>
-                                            <button type="button" class="bg-[#0051FF] text-white font-semibold  text-sm text-center rounded-lg py-2.5 w-[132px] transition opacity-100 hover:opacity-90 flex items-center justify-center gap-2.5">Buy Now <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <button type="button" class="bg-cblue text-white font-semibold  text-sm text-center rounded-lg py-2.5 w-[132px] transition opacity-100 hover:opacity-90 flex items-center justify-center gap-2.5">Buy Now <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M6.6875 2.5625H2.5625V10.4375H10.4375V6.3125M10.4375 2.5625L6.3125 6.6875M8.5625 1.8125H11.1875V4.4375" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                             </svg>
                                             </button>
@@ -262,14 +319,31 @@
                     </div>
                     <div class="single-ex-info block bg-white rounded-[20px] w-full mb-5">
                         <div class="ex-info-inner w-full  pl-8 pt-4 pb-12 flex items-start">
-                            <div class="logo">
+                            <div class="logo md:flex hidden">
                                 <img src="@/assets/img/exchange/Coinbase_Pro.png" alt="">
                             </div>
                             <div class="ex-detail ml-3 mt-1  w-full">
-                                <div class="detail-top flex items-end justify-between">
-                                    <div class="w-[360px]">
-                                        <div class="font-normal text-2xl text-black mb-2 flex items-center">Coinbase Pro </div>
-                                        <div class="flex items-center"><img src="@/assets/img/flag/flag01.svg" alt=""> <span class="rating-ex mx-2 px-2 border-r border-l border-[#F1F5FE] font-normal text-sm text-black flex items-center gap-1"> <img src="@/assets/img/icons/star.svg" alt=""> 5.0</span> <a href="" class="group text-[10px] text-[#0051FF] font-normal flex items-center">Visit Exchange <img src="@/assets/img/arrow-right-blue.svg" class="ml-1 translate-x-0 transition group-hover:translate-x-1" alt=""></a></div>
+                                <div class="detail-top flex flex-col md:flex-row items-end justify-between">
+                                    <div class="ex-detail-inn-top w-full md:w-3/5">
+                                        <div class="flex items-center gap-3">
+                                            <div class="flex md:hidden logo">
+                                                <img src="@/assets/img/exchange/Coinbase_Pro.png" alt="">
+                                            </div>
+                                            <div class="">
+                                                <div class="font-normal text-2xl text-black mb-2 flex items-center">Coinbase Pro
+                                                    
+                                                </div>
+                                                <div class="flex items-center"><img src="@/assets/img/flag/flag04.svg"
+                                                        alt=""> <span
+                                                        class="rating-ex mx-2 px-2 border-r border-l border-[#F1F5FE] font-normal text-sm text-black flex items-center gap-1">
+                                                        <img src="@/assets/img/icons/star.svg" alt=""> 5.0</span> <a href=""
+                                                        class="group text-[10px] text-cblue font-normal flex items-center">Visit
+                                                        Exchange <img src="@/assets/img/arrow-right-blue.svg"
+                                                            class="ml-1 translate-x-0 transition group-hover:translate-x-1"
+                                                            alt=""></a>
+                                                </div>
+                                            </div>
+                                        </div>
                                         <div class="flex items-center gap-2 mt-5 mb-6">
                                             <div class="bg-[#F3F6FD] text-center rounded-md py-2 px-3">
                                                 <div class="font-semibold text-base text-black leading-4">842</div>
@@ -280,12 +354,13 @@
                                                 <div class="text-[#6B6C6F] text-[10px] font-normal">Top Pair</div>
                                             </div>
                                             <div class="bg-[#F3F6FD] text-center rounded-md py-2 px-3">
-                                                <div class="font-semibold text-base text-black leading-4">10Billion USD</div>
+                                                <div class="font-semibold text-base text-black leading-4">10Billion USD
+                                                </div>
                                                 <div class="text-[#6B6C6F] text-[10px] font-normal">24hr Volume</div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="w-[310px] mb-6">
+                                    <div class="w-full md:w-2/5 mb-6">
                                         <div class="mb-5 text-left">
                                             <div class="font-normal text-black text-xs mb-2">Properties</div>
                                             <img src="@/assets/img/icons/group-icons-prop.svg" alt="">
@@ -296,12 +371,12 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="flex items-center justify-between">
-                                    <div class="ex-text w-[360px]">
+                                <div class="flex  flex-col md:flex-row items-center justify-between">
+                                    <div class="ex-text w-full md:w-[360px]">
                                         <h5 class="font-semibold text-base text-black mb-[6px]">About this Exchange</h5>
                                         <p class="font-normal text-xs text-[#6B6C6F] mb-3 ellipsis-p">They combine broker and exchange and are currently the fastest growing exchange in the Netherlands. Due to the ease of this platform, they quickly managed to conquer their place in the market. Bitvavo is known for the simplicity and ease of the platform, which makes it very suitable for both beginners and experienced traders. Because they have built the entire platform into a cryptocurrency exchange.</p>
                                     </div>
-                                    <div class="w-[310px]">
+                                    <div class="w-full md:w-[310px]">
                                         <div class="flex items-center gap-2 justify-start mb-4">
                                             <div class="w-[132px]">
                                                 <div class="font-semibold text-2xl text-black">€22.479.18</div>
@@ -314,7 +389,7 @@
                                         </div>
                                         <div class="buttons-bt flex items-center gap-2 justify-start">
                                             <a href="" class="text-[#43547B] bg-[#D1D8E8] transition hover:bg-[#b7c2da] text-center font-semibold text-sm rounded-lg py-2.5 w-[132px]">Review</a>
-                                            <button type="button" class="bg-[#0051FF] text-white font-semibold  text-sm text-center rounded-lg py-2.5 w-[132px] transition opacity-100 hover:opacity-90 flex items-center justify-center gap-2.5">Buy Now <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <button type="button" class="bg-cblue text-white font-semibold  text-sm text-center rounded-lg py-2.5 w-[132px] transition opacity-100 hover:opacity-90 flex items-center justify-center gap-2.5">Buy Now <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M6.6875 2.5625H2.5625V10.4375H10.4375V6.3125M10.4375 2.5625L6.3125 6.6875M8.5625 1.8125H11.1875V4.4375" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                             </svg>
                                             </button>

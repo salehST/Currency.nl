@@ -92,22 +92,22 @@ methods:{
                         <span class="mb-1 block">The Netherlands</span>
                     </p>
                     <div class="w-full lg:w-auto">
-                    <form action="" class="text-left w-40 mx-auto md:mx-0">
-                        <div class="">
-                            <div class="no-label w-40  mx-auto md:mx-0">
-                                <div class="select" id="price">
-                                    <div class="selectBtn filter-icon" data-type="firstOption">English </div>
-                                    <div class="selectDropdown">
-                                        <div class="option" data-value="all" data-type="firstOption">English</div>
-                                        <div class="option" data-type="secondOption" data-value="internet-tv">
-                                            Dutch
+                        <form action="" class="text-left w-40 mx-auto md:mx-0">
+                            <div class="">
+                                <div class="no-label w-40  mx-auto md:mx-0">
+                                    <div class="select" id="price">
+                                        <div class="selectBtn filter-icon" data-type="firstOption">English </div>
+                                        <div class="selectDropdown">
+                                            <div class="option" data-value="all" data-type="firstOption">English</div>
+                                            <div class="option" data-type="secondOption" data-value="internet-tv">
+                                                Dutch
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </form>
-                </div>
+                        </form>
+                    </div>
                 </div>
                 <div
                     class="mb-6 md:mb-0 grid grid-cols-2 gap-8 mx-auto sm:justify-between sm:flex sm:basis-1/2 md:basis-2/3 sm:flex-wrap ">

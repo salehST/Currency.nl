@@ -114,8 +114,8 @@ export default {
 <template>
         <div class="flex items-center justify-between mb-10 mt-24 md:mt-36">
             <div class="w-full md:w-7/12">
-                <h2 class=" text-[32px] md:text-5xl font-bold leading-9 md:leading-[57px] mb-5 ">Most <span class="strick-line-inline"> popular</span> exchanges in the Netherlands
-                    <img src="@/assets/img/big-coin.svg" class="ml-2 inline-flex w-auto " alt=""></h2>
+                <h2 class=" text-[32px] text-primary md:text-5xl font-bold leading-9 md:leading-[57px] mb-5 ">Most <span class="strick-line-inline"> popular</span> exchanges in the Netherlands
+                    </h2>
                 <p class="text-[#6B6C6F] text-xl font-normal leading-8 pr-10">Monitor capitalization, price, daily volume, and price changes of any coin in real time!</p>
             </div>
             <div class="hidden md:flex image-area w-3/12">
@@ -149,7 +149,7 @@ export default {
                         <span class="flex items-center"> <img src="@/assets/img/star.svg" class="mr-2" alt=""> 4.8</span>
                     </td>
                     <td class="product-info-modal text-center">
-                        <button type="button" class="bg-[#0051FF] text-white font-semibold text-sm py-2 px-5 md:px-9 rounded transition opacity-100 hover:opacity-90 flex items-center gap-2.5">View <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6.6875 2.5625H2.5625V10.4375H10.4375V6.3125M10.4375 2.5625L6.3125 6.6875M8.5625 1.8125H11.1875V4.4375" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <button type="button" class="bg-cblue text-white font-semibold text-sm py-2 px-5 md:px-9 rounded transition opacity-100 hover:opacity-90 flex items-center gap-2.5">View <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6.6875 2.5625H2.5625V10.4375H10.4375V6.3125M10.4375 2.5625L6.3125 6.6875M8.5625 1.8125H11.1875V4.4375" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
                         </button>
                     </td>
@@ -163,7 +163,7 @@ export default {
                         <span class="flex items-center"> <img src="@/assets/img/star.svg" class="mr-2" alt=""> 4.7</span>
                     </td>
                     <td class="product-info-modal text-center">
-                        <button type="button" class="bg-[#0051FF] text-white font-semibold  text-sm py-2 px-5 md:px-9 rounded transition opacity-100 hover:opacity-90 flex items-center gap-2.5">View <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <button type="button" class="bg-cblue text-white font-semibold  text-sm py-2 px-5 md:px-9 rounded transition opacity-100 hover:opacity-90 flex items-center gap-2.5">View <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M6.6875 2.5625H2.5625V10.4375H10.4375V6.3125M10.4375 2.5625L6.3125 6.6875M8.5625 1.8125H11.1875V4.4375" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
 </button>
@@ -179,7 +179,7 @@ export default {
                         <span class="flex items-center"> <img src="@/assets/img/star.svg" class="mr-2" alt=""> 4.5</span>
                     </td>
                     <td class="product-info-modal text-center">
-                        <button type="button" class="bg-[#0051FF] text-white font-semibold  text-sm py-2 px-5 md:px-9 rounded transition opacity-100 hover:opacity-90 flex items-center gap-2.5">View <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <button type="button" class="bg-cblue text-white font-semibold  text-sm py-2 px-5 md:px-9 rounded transition opacity-100 hover:opacity-90 flex items-center gap-2.5">View <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M6.6875 2.5625H2.5625V10.4375H10.4375V6.3125M10.4375 2.5625L6.3125 6.6875M8.5625 1.8125H11.1875V4.4375" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
 </button>
@@ -195,7 +195,7 @@ export default {
                         <span class="flex items-center"> <img src="@/assets/img/star.svg" class="mr-2" alt=""> 4.5</span>
                     </td>
                     <td class="product-info-modal text-center">
-                        <button type="button" class="bg-[#0051FF] text-white font-semibold  text-sm py-2 px-5 md:px-9 rounded transition opacity-100 hover:opacity-90 flex items-center gap-2.5">View <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <button type="button" class="bg-cblue text-white font-semibold  text-sm py-2 px-5 md:px-9 rounded transition opacity-100 hover:opacity-90 flex items-center gap-2.5">View <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M6.6875 2.5625H2.5625V10.4375H10.4375V6.3125M10.4375 2.5625L6.3125 6.6875M8.5625 1.8125H11.1875V4.4375" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
 </button>
@@ -211,7 +211,7 @@ export default {
                         <span class="flex items-center"> <img src="@/assets/img/star.svg" class="mr-2" alt=""> 4.7</span>
                     </td>
                     <td class="product-info-modal text-center">
-                        <button type="button" class="bg-[#0051FF] text-white font-semibold  text-sm py-2 px-5 md:px-9 rounded transition opacity-100 hover:opacity-90 flex items-center gap-2.5">View <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <button type="button" class="bg-cblue text-white font-semibold  text-sm py-2 px-5 md:px-9 rounded transition opacity-100 hover:opacity-90 flex items-center gap-2.5">View <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M6.6875 2.5625H2.5625V10.4375H10.4375V6.3125M10.4375 2.5625L6.3125 6.6875M8.5625 1.8125H11.1875V4.4375" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
 </button>
@@ -227,7 +227,7 @@ export default {
                         <span class="flex items-center"> <img src="@/assets/img/star.svg" class="mr-2" alt=""> 4.7</span>
                     </td>
                     <td class="product-info-modal text-center">
-                        <button type="button" class="bg-[#0051FF] text-white font-semibold  text-sm py-2 px-5 md:px-9 rounded transition opacity-100 hover:opacity-90 flex items-center gap-2.5">View <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <button type="button" class="bg-cblue text-white font-semibold  text-sm py-2 px-5 md:px-9 rounded transition opacity-100 hover:opacity-90 flex items-center gap-2.5">View <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M6.6875 2.5625H2.5625V10.4375H10.4375V6.3125M10.4375 2.5625L6.3125 6.6875M8.5625 1.8125H11.1875V4.4375" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
 </button>
@@ -243,7 +243,7 @@ export default {
                         <span class="flex items-center"> <img src="@/assets/img/star.svg" class="mr-2" alt=""> 4.8</span>
                     </td>
                     <td class="product-info-modal text-center">
-                        <button type="button" class="bg-[#0051FF] text-white font-semibold  text-sm py-2 px-5 md:px-9 rounded transition opacity-100 hover:opacity-90 flex items-center gap-2.5">View <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <button type="button" class="bg-cblue text-white font-semibold  text-sm py-2 px-5 md:px-9 rounded transition opacity-100 hover:opacity-90 flex items-center gap-2.5">View <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M6.6875 2.5625H2.5625V10.4375H10.4375V6.3125M10.4375 2.5625L6.3125 6.6875M8.5625 1.8125H11.1875V4.4375" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
 </button>

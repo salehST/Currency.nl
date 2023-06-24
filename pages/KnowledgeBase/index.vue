@@ -78,8 +78,8 @@
     <div class="container mx-auto max-w-screen-xl page-heading">  <!-- container start -->
         <div class="flex items-center justify-between mb-10">
             <div class="w-full md:w-8/12">
-                <h2 class=" text-[32px] md:text-5xl font-bold leading-9 md:leading-[57px] mb-5 flex items-center">
-                    <span class="strick-line-inline">Knowledge Base</span></h2>
+                <h2 class=" text-[32px] text-primary md:text-5xl font-bold leading-9 md:leading-[57px] mb-5 flex items-center">
+                    Knowledge Base</h2>
                 <p class="text-[#6B6C6F] text-xl font-normal leading-8 pr-12">Learn more about the world of cryptocurrency with our knowledge base. In our knowledge base you will find the answers to all your basic and advanced crypto questions. We are working hard to update this knowledge base regularly with new questions that help not only the novice cryptocurrency investor but also the experienced traders..</p>
             </div>
             <div class="hidden md:flex call-to-action relative top-sec image-area p-12 w-4/12">
@@ -87,7 +87,7 @@
             </div>
         </div>
         <div class="knowledge-slider">
-            <h3 class="font-semibold text-[32px] text-black mb-3">Top Coins of this month</h3>
+            <h3 class="font-semibold text-[32px] text-black">Top Coins of this month</h3>
             <div class="flex items-center justify-between gap-[30px]">
                 <swiper     
                 :breakpoints="{
@@ -295,7 +295,7 @@
         </div>
     </div>  <!-- container end -->
 </section>
-<section class="w-full bg-[#F1F5FE] p-10 md:p-12 md:pt-16">
+<section class="w-full bg-[#F1F5FE] pb-20 p-10 md:p-12 md:pt-16">
     <div class="container mx-auto max-w-screen-xl">  <!-- container start -->
         <div class="mb-10">
             <h2 class="font-semibold text-[32px] text-black">Introduction</h2>

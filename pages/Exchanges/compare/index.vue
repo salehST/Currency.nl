@@ -1,7 +1,7 @@
 <template>
     <section class="bg-white w-full p-10 md:p-12">
         <div class="container mx-auto max-w-screen-xl page-heading"> <!-- container start -->
-            <div class=" font-bold text-[32px] md:text-5xl text-black max-w-[965px] mx-auto text-center">Bitvavo<span class="text-[#FDA425] font-normal"> vs </span> OKEX <span class="text-[#FDA425] font-normal">vs</span> Huobi Global <span class="text-[#FDA425] font-normal">vs</span> Coinbase Pro</div>
+            <div class=" font-bold text-[32px] text-primary md:text-5xl  max-w-[965px] mx-auto text-center">Bitvavo<span class="text-cblue font-normal"> vs </span> OKEX <span class="text-cblue font-normal">vs</span> Huobi Global <span class="text-cblue font-normal">vs</span> Coinbase Pro</div>
         </div> <!-- container end -->
     </section>
     <section class="w-full bg-[#F1F5FE] p-10 md:p-12 md:pt-16">
@@ -117,7 +117,7 @@
                                         <span class="">Ease of use</span> <span class="">4.5</span>
                                     </div>
                                     <div class="h-[10px] w-full bg-[#F1F5FE] rounded-[10px]">
-                                        <div class="h-[10px] bg-[#0051FF] rounded-[10px]" style="width: 90%"></div>
+                                        <div class="h-[10px] bg-cblue rounded-[10px]" style="width: 90%"></div>
                                     </div>
                                 </div>
                                 <div class="mb-6">
@@ -125,7 +125,7 @@
                                         <span class="">Value for money</span> <span class="">4.5</span>
                                     </div>
                                     <div class="h-[10px] w-full bg-[#F1F5FE] rounded-[10px]">
-                                        <div class="h-[10px] bg-[#0051FF] rounded-[10px]" style="width: 90%"></div>
+                                        <div class="h-[10px] bg-cblue rounded-[10px]" style="width: 90%"></div>
                                     </div>
                                 </div>
                                 <div class="mb-6">
@@ -133,7 +133,7 @@
                                         <span class="">Verification</span> <span class="">4</span>
                                     </div>
                                     <div class="h-[10px] w-full bg-[#F1F5FE] rounded-[10px]">
-                                        <div class="h-[10px] bg-[#0051FF] rounded-[10px]" style="width: 80%"></div>
+                                        <div class="h-[10px] bg-cblue rounded-[10px]" style="width: 80%"></div>
                                     </div>
                                 </div>
                                 <div class="mb-6">
@@ -141,12 +141,12 @@
                                         <span class="">Support</span> <span class="">3.5</span>
                                     </div>
                                     <div class="h-[10px] w-full bg-[#F1F5FE] rounded-[10px]">
-                                        <div class="h-[10px] bg-[#0051FF] rounded-[10px]" style="width: 70%"></div>
+                                        <div class="h-[10px] bg-cblue rounded-[10px]" style="width: 70%"></div>
                                     </div>
                                 </div>
                             </div>
                             <a href=""
-                                class="text-[#0051FF] text-base font-semibold py-1.5 px-5 border rounded-full border-[#0051FF] group bg-transparent hover:text-white hover:bg-[#0051FF] transition flex mx-auto items-center justify-center"
+                                class="text-cblue text-base font-semibold py-1.5 px-5 border rounded-full border-[#0051FF] group bg-transparent hover:text-white hover:bg-cblue transition flex mx-auto items-center justify-center"
                                 data-v-7fd49c2f="">
                                 <span class="mr-1.5" data-v-7fd49c2f="">Go to Website</span>
                                 <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
@@ -242,7 +242,7 @@
                                         <span class="">Ease of use</span> <span class="">4.5</span>
                                     </div>
                                     <div class="h-[10px] w-full bg-[#F1F5FE] rounded-[10px]">
-                                        <div class="h-[10px] bg-[#0051FF] rounded-[10px]" style="width: 90%"></div>
+                                        <div class="h-[10px] bg-cblue rounded-[10px]" style="width: 90%"></div>
                                     </div>
                                 </div>
                                 <div class="mb-6">
@@ -250,7 +250,7 @@
                                         <span class="">Value for money</span> <span class="">4.5</span>
                                     </div>
                                     <div class="h-[10px] w-full bg-[#F1F5FE] rounded-[10px]">
-                                        <div class="h-[10px] bg-[#0051FF] rounded-[10px]" style="width: 90%"></div>
+                                        <div class="h-[10px] bg-cblue rounded-[10px]" style="width: 90%"></div>
                                     </div>
                                 </div>
                                 <div class="mb-6">
@@ -258,7 +258,7 @@
                                         <span class="">Verification</span> <span class="">4</span>
                                     </div>
                                     <div class="h-[10px] w-full bg-[#F1F5FE] rounded-[10px]">
-                                        <div class="h-[10px] bg-[#0051FF] rounded-[10px]" style="width: 80%"></div>
+                                        <div class="h-[10px] bg-cblue rounded-[10px]" style="width: 80%"></div>
                                     </div>
                                 </div>
                                 <div class="mb-6">
@@ -266,12 +266,12 @@
                                         <span class="">Support</span> <span class="">3.5</span>
                                     </div>
                                     <div class="h-[10px] w-full bg-[#F1F5FE] rounded-[10px]">
-                                        <div class="h-[10px] bg-[#0051FF] rounded-[10px]" style="width: 70%"></div>
+                                        <div class="h-[10px] bg-cblue rounded-[10px]" style="width: 70%"></div>
                                     </div>
                                 </div>
                             </div>
                             <a href=""
-                                class="text-[#0051FF] text-base font-semibold py-1.5 px-5 border rounded-full border-[#0051FF] group bg-transparent hover:text-white hover:bg-[#0051FF] transition flex mx-auto items-center justify-center"
+                                class="text-cblue text-base font-semibold py-1.5 px-5 border rounded-full border-[#0051FF] group bg-transparent hover:text-white hover:bg-cblue transition flex mx-auto items-center justify-center"
                                 data-v-7fd49c2f="">
                                 <span class="mr-1.5" data-v-7fd49c2f="">Go to Website</span>
                                 <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
@@ -367,7 +367,7 @@
                                         <span class="">Ease of use</span> <span class="">4.5</span>
                                     </div>
                                     <div class="h-[10px] w-full bg-[#F1F5FE] rounded-[10px]">
-                                        <div class="h-[10px] bg-[#0051FF] rounded-[10px]" style="width: 90%"></div>
+                                        <div class="h-[10px] bg-cblue rounded-[10px]" style="width: 90%"></div>
                                     </div>
                                 </div>
                                 <div class="mb-6">
@@ -375,7 +375,7 @@
                                         <span class="">Value for money</span> <span class="">4.5</span>
                                     </div>
                                     <div class="h-[10px] w-full bg-[#F1F5FE] rounded-[10px]">
-                                        <div class="h-[10px] bg-[#0051FF] rounded-[10px]" style="width: 90%"></div>
+                                        <div class="h-[10px] bg-cblue rounded-[10px]" style="width: 90%"></div>
                                     </div>
                                 </div>
                                 <div class="mb-6">
@@ -383,7 +383,7 @@
                                         <span class="">Verification</span> <span class="">4</span>
                                     </div>
                                     <div class="h-[10px] w-full bg-[#F1F5FE] rounded-[10px]">
-                                        <div class="h-[10px] bg-[#0051FF] rounded-[10px]" style="width: 80%"></div>
+                                        <div class="h-[10px] bg-cblue rounded-[10px]" style="width: 80%"></div>
                                     </div>
                                 </div>
                                 <div class="mb-6">
@@ -391,12 +391,12 @@
                                         <span class="">Support</span> <span class="">3.5</span>
                                     </div>
                                     <div class="h-[10px] w-full bg-[#F1F5FE] rounded-[10px]">
-                                        <div class="h-[10px] bg-[#0051FF] rounded-[10px]" style="width: 70%"></div>
+                                        <div class="h-[10px] bg-cblue rounded-[10px]" style="width: 70%"></div>
                                     </div>
                                 </div>
                             </div>
                             <a href=""
-                                class="text-[#0051FF] text-base font-semibold py-1.5 px-5 border rounded-full border-[#0051FF] group bg-transparent hover:text-white hover:bg-[#0051FF] transition flex mx-auto items-center justify-center"
+                                class="text-cblue text-base font-semibold py-1.5 px-5 border rounded-full border-[#0051FF] group bg-transparent hover:text-white hover:bg-cblue transition flex mx-auto items-center justify-center"
                                 data-v-7fd49c2f="">
                                 <span class="mr-1.5" data-v-7fd49c2f="">Go to Website</span>
                                 <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
@@ -492,7 +492,7 @@
                                         <span class="">Ease of use</span> <span class="">4.5</span>
                                     </div>
                                     <div class="h-[10px] w-full bg-[#F1F5FE] rounded-[10px]">
-                                        <div class="h-[10px] bg-[#0051FF] rounded-[10px]" style="width: 90%"></div>
+                                        <div class="h-[10px] bg-cblue rounded-[10px]" style="width: 90%"></div>
                                     </div>
                                 </div>
                                 <div class="mb-6">
@@ -500,7 +500,7 @@
                                         <span class="">Value for money</span> <span class="">4.5</span>
                                     </div>
                                     <div class="h-[10px] w-full bg-[#F1F5FE] rounded-[10px]">
-                                        <div class="h-[10px] bg-[#0051FF] rounded-[10px]" style="width: 90%"></div>
+                                        <div class="h-[10px] bg-cblue rounded-[10px]" style="width: 90%"></div>
                                     </div>
                                 </div>
                                 <div class="mb-6">
@@ -508,7 +508,7 @@
                                         <span class="">Verification</span> <span class="">4</span>
                                     </div>
                                     <div class="h-[10px] w-full bg-[#F1F5FE] rounded-[10px]">
-                                        <div class="h-[10px] bg-[#0051FF] rounded-[10px]" style="width: 80%"></div>
+                                        <div class="h-[10px] bg-cblue rounded-[10px]" style="width: 80%"></div>
                                     </div>
                                 </div>
                                 <div class="mb-6">
@@ -516,12 +516,12 @@
                                         <span class="">Support</span> <span class="">3.5</span>
                                     </div>
                                     <div class="h-[10px] w-full bg-[#F1F5FE] rounded-[10px]">
-                                        <div class="h-[10px] bg-[#0051FF] rounded-[10px]" style="width: 70%"></div>
+                                        <div class="h-[10px] bg-cblue rounded-[10px]" style="width: 70%"></div>
                                     </div>
                                 </div>
                             </div>
                             <a href=""
-                                class="text-[#0051FF] text-base font-semibold py-1.5 px-5 border rounded-full border-[#0051FF] group bg-transparent hover:text-white hover:bg-[#0051FF] transition flex mx-auto items-center justify-center"
+                                class="text-cblue text-base font-semibold py-1.5 px-5 border rounded-full border-[#0051FF] group bg-transparent hover:text-white hover:bg-cblue transition flex mx-auto items-center justify-center"
                                 data-v-7fd49c2f="">
                                 <span class="mr-1.5" data-v-7fd49c2f="">Go to Website</span>
                                 <svg width="12" height="12" viewBox="0 0 12 12" fill="none"

@@ -103,12 +103,12 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
                                         <div class="">
                                             <div class="news-tags flex flex-nowrap items-center justify-start"> 
                                                 <a href="#">
-                                                    <span class="w-fit bg-[#EBF1FF] text-[#0051FF] text-base font-semibold mr-1 px-2.5 py-1.5 rounded whitespace-nowrap">NEWS</span>
+                                                    <span class="w-fit bg-[#EBF1FF] text-cblue text-base font-semibold mr-1 px-2.5 py-1.5 rounded whitespace-nowrap">NEWS</span>
                                                 </a>
                                             </div>
                                         </div>
                                         <div class="bottom-content text-left flex flex-col mt-14">
-                                                <h2 class="text-2xl md:text-[32px] font-bold text-white w-[290px] sm:w-[488px] leading-9 mb-3">Sports betting with crypto, is it allowed in the Netherlands?</h2>
+                                                <h2 class="text-2xl md:text-[32px] text-primary font-bold text-white w-[290px] sm:w-[488px] leading-9 mb-3">Sports betting with crypto, is it allowed in the Netherlands?</h2>
                                                 <p class="text-[#D9D9D9] text-base font-normal">There is little more fun than betting on an exciting match and if you invite a few friends or family members, it quickly becomes a fun battle. You would prefer to use your crypto to bet on your match and you have seen that that is already an option with some foreign...</p>
                                             
                                         <div class="flex items-center justify-between mt-10">
@@ -138,11 +138,11 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
                                     <div class="inner-content w-full z-20 grid grid-cols-1 gap-1 sm:gap-4 items-baseline h-[307px] md:h-[523px]">
                                         <div class="">
                                             <div class="news-tags flex flex-nowrap items-center justify-start"> 
-                                                    <a href="#"><span class="w-fit bg-[#EBF1FF] text-[#0051FF] text-base font-semibold mr-1 px-2.5 py-1.5 rounded whitespace-nowrap">NEWS</span></a>
+                                                    <a href="#"><span class="w-fit bg-[#EBF1FF] text-cblue text-base font-semibold mr-1 px-2.5 py-1.5 rounded whitespace-nowrap">NEWS</span></a>
                                                 </div>
                                         </div>
                                             <div class="bottom-content text-left flex flex-col mt-14">
-                                                <h2 class="text-2xl md:text-[32px] font-bold text-white w-[290px] sm:w-[488px] leading-9 mb-3">Sports betting with crypto, is it allowed in the Netherlands?</h2>
+                                                <h2 class="text-2xl md:text-[32px] text-primary font-bold text-white w-[290px] sm:w-[488px] leading-9 mb-3">Sports betting with crypto, is it allowed in the Netherlands?</h2>
                                                 <p class="text-[#D9D9D9] text-base font-normal">There is little more fun than betting on an exciting match and if you invite a few friends or family members, it quickly becomes a fun battle. You would prefer to use your crypto to bet on your match and you have seen that that is already an option with some foreign...</p>
                                             
                                             <div class="flex items-center justify-between mt-10">
@@ -173,11 +173,11 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
                                     <div class="inner-content w-full z-20 grid grid-cols-1 gap-1 sm:gap-4 items-baseline h-[307px] md:h-[523px]">
                                         <div class="">
                                             <div class="news-tags flex flex-nowrap items-center justify-start"> 
-                                                    <a href="#"><span class="w-fit bg-[#EBF1FF] text-[#0051FF] text-base font-semibold mr-1 px-2.5 py-1.5 rounded whitespace-nowrap">NEWS</span></a>
+                                                    <a href="#"><span class="w-fit bg-[#EBF1FF] text-cblue text-base font-semibold mr-1 px-2.5 py-1.5 rounded whitespace-nowrap">NEWS</span></a>
                                                 </div>
                                         </div>
                                             <div class="bottom-content text-left flex flex-col mt-14">
-                                                <h2 class="text-2xl md:text-[32px] font-bold text-white w-[290px] sm:w-[488px] leading-9 mb-3">Sports betting with crypto, is it allowed in the Netherlands?</h2>
+                                                <h2 class="text-2xl md:text-[32px] text-primary font-bold text-white w-[290px] sm:w-[488px] leading-9 mb-3">Sports betting with crypto, is it allowed in the Netherlands?</h2>
                                                 <p class="text-[#D9D9D9] text-base font-normal">There is little more fun than betting on an exciting match and if you invite a few friends or family members, it quickly becomes a fun battle. You would prefer to use your crypto to bet on your match and you have seen that that is already an option with some foreign...</p>
                                             
                                             <div class="flex items-center justify-between mt-10">

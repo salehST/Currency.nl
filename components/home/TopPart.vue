@@ -1,11 +1,11 @@
 <template>
 
-            <div class="flex home-top-content mb-6 mt-16 md:mt-0">
+            <div class="flex items-start home-top-content mb-8 md:mb-24 mt-16 md:mt-0">
                 <div class=" left-part w-full pr-0 lg:pr-6 lg:w-1/2">
                     <div class="hidden md:flex items-center gap-1 mb-6">
                         <img src="@/assets/img/verified.svg" class=" h-5 w-5" alt=""> <h1 class=" text-base">Trusted and verified by Currency.nl</h1>
                     </div>
-                    <h2 class=" text-[32px] md:text-5xl mb-6 font-bold leading-9 md:leading-[57px]">Want to Buy crypto?
+                    <h2 class=" text-[32px] text-primary md:text-5xl mb-6 font-bold leading-9 md:leading-[57px]">Want to Buy crypto?
                         <span class="strick-line">Compare all cryptos</span> 
                         & exchanges here
                     </h2>
@@ -19,20 +19,20 @@
                                 </span>
                                 <span class="coin-price text-xl font-semibold">€22755</span>
                                 <div class="hidden md:inline-block buy-button group">
-                                    <a class="bg-[#0051FF] text-white flex items-center py-2 px-7 rounded-full" href="">Buy Now<img src="@/assets/img/arrow-right-white-bg.svg" class="h-5 w-5 ml-3 translate-x-0 transition group-hover:translate-x-1" alt=""></a>
+                                    <a class="bg-cblue text-white flex items-center py-2 px-7 rounded-full" href="">Buy Now<img src="@/assets/img/arrow-right-white-bg.svg" class="h-5 w-5 ml-3 translate-x-0 transition group-hover:translate-x-1" alt=""></a>
                                 </div>
                             </div>
                             <div class="block md:hidden buy-button group w-full border-t pt-4 mt-4 border-[#DEE4F1]">
-                                    <a class="bg-[#0051FF] text-white flex items-center justify-center py-2 px-7 rounded-full" href="">Buy Now<img src="@/assets/img/arrow-right-white-bg.svg" class="h-5 w-5 ml-3 translate-x-0 transition group-hover:translate-x-1" alt=""></a>
+                                    <a class="bg-cblue text-white flex items-center justify-center py-2 px-7 rounded-full" href="">Buy Now<img src="@/assets/img/arrow-right-white-bg.svg" class="h-5 w-5 ml-3 translate-x-0 transition group-hover:translate-x-1" alt=""></a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="right-part hidden lg:block w-full relative lg:w-1/2 p-5">
-                    <div class="relative bg-[#002D8E] rounded-[10px] p-7 pb-12 overflow-hidden shadow-2xl shadow-[#7C8FCA]">
+                <div class="right-part hidden lg:block w-full relative lg:w-1/2 px-5 ">
+                    <div class="relative px-7">
                         <div class="currency-info-list">
                             <div class="currency-info-inner">
-                                <div class="single-currency-info bg-white rounded-lg p-6 mb-3">
+                                <div class="single-currency-info border border-[#E0E0E0] bg-white rounded-lg p-6 mb-3">
                                     <div class="flex items-center justify-between">
                                         <div class="flex items-center">
                                             <img src="@/assets/img/logos/btc.png" class=" h-10 w-10 mr-2" alt=""> 
@@ -50,7 +50,7 @@
                                         <button class="bg-[#1F3157] w-auto opacity-100 hover:opacity-90 transition text-white flex text-sm font-semibold text-center justify-center items-center rounded-md py-2 px-7">Buy / Sell</button>
                                     </div>
                                 </div>
-                                <div class="single-currency-info bg-white rounded-lg p-6 mb-3">
+                                <div class="single-currency-info border border-[#E0E0E0] bg-white rounded-lg p-6 mb-3">
                                     <div class="flex items-center justify-between">
                                         <div class="flex items-center">
                                             <img src="@/assets/img/logos/eth.png" class=" h-10 w-10 mr-2" alt=""> 
@@ -68,7 +68,7 @@
                                         <button class="bg-[#1F3157] w-auto opacity-100 hover:opacity-90 transition text-white flex text-sm font-semibold text-center justify-center items-center rounded-md py-2 px-7">Buy / Sell</button>
                                     </div>
                                 </div>
-                                <div class="single-currency-info bg-white rounded-lg p-6 mb-3">
+                                <div class="single-currency-info border border-[#E0E0E0] bg-white rounded-lg p-6 mb-3">
                                     <div class="flex items-center justify-between">
                                         <div class="flex items-center">
                                             <img src="@/assets/img/logos/usdt.png" class=" h-10 w-10 mr-2" alt=""> 
@@ -86,7 +86,7 @@
                                         <button class="bg-[#1F3157] w-auto opacity-100 hover:opacity-90 transition text-white flex text-sm font-semibold text-center justify-center items-center rounded-md py-2 px-7">Buy / Sell</button>
                                     </div>
                                 </div>
-                                <div class="single-currency-info bg-white rounded-lg p-6 mb-3">
+                                <div class="single-currency-info border border-[#E0E0E0] bg-white rounded-lg p-6 mb-3">
                                     <div class="flex items-center justify-between">
                                         <div class="flex items-center">
                                             <img src="@/assets/img/logos/bnb.png" class=" h-10 w-10 mr-2" alt=""> 
@@ -107,11 +107,11 @@
                             </div>
                         </div>
                         
-                    <div class="load-more-btn w-full">
+                    <!-- <div class="load-more-btn w-full">
                        <div class="button-area">
                             <a href="" class="flex items-center justify-center text-white translate-x-0 transition hover:translate-x-1">View All <img src="@/assets/img/arrow-right-white-bg.svg" class="ml-2 h-5 w-5" alt=""></a> 
                        </div> 
-                    </div>
+                    </div> -->
                     </div>
                 </div>
             </div>

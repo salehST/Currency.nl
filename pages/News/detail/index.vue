@@ -9,7 +9,7 @@
     <div class="container mx-auto max-w-screen-xl">  <!-- container start -->
         <div class="call-to-action relative top-sec flex items-center justify-center mb-10">
             <div class="w-full text-center">
-                <h2 class=" text-[32px] md:text-5xl font-bold leading-9 md:leading-[57px] mb-5 flex items-center justify-center">
+                <h2 class=" text-[32px] text-primary md:text-5xl font-bold leading-9 md:leading-[57px] mb-5 flex items-center justify-center">
                     <span class="strick-line-inline">News</span></h2>
             </div>
         </div>

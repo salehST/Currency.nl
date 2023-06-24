@@ -1,8 +1,8 @@
 <template>
         <div class="flex items-center justify-between mb-10 mt-10 md:mt-36">
             <div class="w-full md:w-7/12">
-                <h2 class="w-9/12 md:w-full text-[32px] md:text-5xl font-bold leading-9 md:leading-[57px] mb-5 "><span class="strick-line-inline">Frequently</span>  Asked Questions
-                    <img src="@/assets/img/big-coin.svg" class="ml-2 inline-flex w-auto " alt=""></h2>
+                <h2 class="w-9/12 md:w-full text-[32px] text-primary md:text-5xl font-bold leading-9 md:leading-[57px] mb-5 "><span class="strick-line-inline">Frequently</span>  Asked Questions
+                    </h2>
                 <p class="text-[#6B6C6F] text-sm md:text-xl font-normal leading-6 md:leading-8 pr-10">Monitor capitalization, price, daily volume, and price changes of any coin in real time!</p>
             </div>
             <div class="image-area hidden md:block w-3/12">
@@ -22,7 +22,7 @@
         <span class="flex items-center">
               <span class="pr-9">
                 <svg class="" width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="5.5" cy="5.5" r="5.5" fill="#FFD600"/>
+                <circle cx="5.5" cy="5.5" r="5.5" fill="#0051FF"/>
                 </svg>
               </span>
               <span class="faq-sec-title">{{ section.title }}</span></span>       

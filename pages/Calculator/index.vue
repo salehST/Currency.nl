@@ -174,7 +174,7 @@ on('click', '.option', item => {
     <div class="container mx-auto max-w-screen-xl page-heading">  <!-- container start -->
         <div class="call-to-action relative top-sec mb-10 w-4/5 mx-auto">
             <div class="w-full text-center">
-                <h2 class=" text-[32px] md:text-5xl font-bold leading-9 md:leading-[57px] mb-6 flex items-center justify-center">
+                <h2 class=" text-[32px] text-primary md:text-5xl font-bold leading-9 md:leading-[57px] mb-6 flex items-center justify-center">
                     <span class="strick-line-inline">Currency Calculator</span></h2>
 
                     <p class="text-[#6B6C6F] font-normal text-base">Currency current exchange rates of all strange currencies in one place.</p>
@@ -247,7 +247,7 @@ on('click', '.option', item => {
             </div>
         </div>
         <div class="top-savings-list mb-14">
-            <h3 class=" text-black text-[32px] font-semibold mb-3 text-center">Top 5 Savings</h3>
+            <h3 class=" text-black text-[32px] text-primary font-semibold mb-3 text-center">Top 5 Savings</h3>
             <div class="grid md:grid-cols-5 grid-cols-2 gap-3">
                 <div class="border border-[#CBD7F1] rounded-[10px] overflow-hidden">
                     <div class="inline-flex items-center px-5 py-3">
@@ -326,7 +326,7 @@ on('click', '.option', item => {
 <section class="w-full bg-[#F1F5FE] p-10 md:p-12 md:pt-16">
     <div class="container mx-auto max-w-screen-xl">  <!-- container start -->
        
-        <h2 class="text-black text-[32px] font-semibold mb-4">Exchange Rate Foreign Currency</h2>
+        <h2 class="text-black text-[32px] text-primary font-semibold mb-4">Exchange Rate Foreign Currency</h2>
         <div class="detail-content flex items-start justify-between gap-6">
             
                 <div class=" w-[818px]">
@@ -549,7 +549,7 @@ on('click', '.option', item => {
                                             <span
                                                 class="rating-ex mx-2 px-2 border-r border-l border-[#F1F5FE] font-normal text-sm text-black flex items-center gap-1">
                                                 <img src="@/assets/img/icons/star.svg" alt=""> 5.0</span> <a href=""
-                                                class="group text-[10px] text-[#0051FF] font-normal flex items-center">Visit
+                                                class="group text-[10px] text-cblue font-normal flex items-center">Visit
                                                 Exchange <img src="@/assets/img/arrow-right-blue.svg"
                                                     class="ml-1 translate-x-0 transition group-hover:translate-x-1"
                                                     alt=""></a></div>
@@ -570,7 +570,7 @@ on('click', '.option', item => {
                                             <span
                                                 class="rating-ex mx-2 px-2 border-r border-l border-[#F1F5FE] font-normal text-sm text-black flex items-center gap-1">
                                                 <img src="@/assets/img/icons/star.svg" alt=""> 5.0</span> <a href=""
-                                                class="group text-[10px] text-[#0051FF] font-normal flex items-center">Visit
+                                                class="group text-[10px] text-cblue font-normal flex items-center">Visit
                                                 Exchange <img src="@/assets/img/arrow-right-blue.svg"
                                                     class="ml-1 translate-x-0 transition group-hover:translate-x-1"
                                                     alt=""></a></div>
@@ -591,7 +591,7 @@ on('click', '.option', item => {
                                             <span
                                                 class="rating-ex mx-2 px-2 border-r border-l border-[#F1F5FE] font-normal text-sm text-black flex items-center gap-1">
                                                 <img src="@/assets/img/icons/star.svg" alt=""> 5.0</span> <a href=""
-                                                class="group text-[10px] text-[#0051FF] font-normal flex items-center">Visit
+                                                class="group text-[10px] text-cblue font-normal flex items-center">Visit
                                                 Exchange <img src="@/assets/img/arrow-right-blue.svg"
                                                     class="ml-1 translate-x-0 transition group-hover:translate-x-1"
                                                     alt=""></a></div>
@@ -612,7 +612,7 @@ on('click', '.option', item => {
                                             <span
                                                 class="rating-ex mx-2 px-2 border-r border-l border-[#F1F5FE] font-normal text-sm text-black flex items-center gap-1">
                                                 <img src="@/assets/img/icons/star.svg" alt=""> 5.0</span> <a href=""
-                                                class="group text-[10px] text-[#0051FF] font-normal flex items-center">Visit
+                                                class="group text-[10px] text-cblue font-normal flex items-center">Visit
                                                 Exchange <img src="@/assets/img/arrow-right-blue.svg"
                                                     class="ml-1 translate-x-0 transition group-hover:translate-x-1"
                                                     alt=""></a></div>
@@ -622,7 +622,7 @@ on('click', '.option', item => {
                         </div>
 
                         <a href=""
-                                                class="group text-base text-[#0051FF] font-medium flex items-center justify-center mt-6">All Brokers <img src="@/assets/img/arrow-right-blue.svg"
+                                                class="group text-base text-cblue font-medium flex items-center justify-center mt-6">All Brokers <img src="@/assets/img/arrow-right-blue.svg"
                                                     class="ml-1 translate-x-0 transition group-hover:translate-x-1"
                                                     alt=""></a>
                     </div>

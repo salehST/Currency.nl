@@ -106,8 +106,8 @@ export default {
 <template>
         <div class="hidden md:flex items-center justify-between mb-10 mt-10 md:mt-36">
             <div class="w-full md:w-7/12">
-                <h2 class=" text-[32px] md:text-5xl font-bold leading-9 md:leading-[57px] mb-5 flex items-center">
-                    <span class="strick-line-inline">Popular Stocks in</span> 2023 <img src="@/assets/img/big-coin.svg" class="ml-3" alt=""></h2>
+                <h2 class=" text-[32px] text-primary md:text-5xl font-bold leading-9 md:leading-[57px] mb-5 flex items-center">
+                    <span class="strick-line-inline">Popular Stocks in</span> 2023</h2>
                 <p class="text-[#6B6C6F] text-xl font-normal leading-8 pr-10">Monitor capitalization, price, daily volume, and price changes of any coin in real time. Here are some ideas for the best stocks to consider buying right now.</p>
             </div>
             <div class="hidden md:flex image-area w-3/12">
@@ -151,7 +151,7 @@ export default {
                         $430.578.766.628
                     </td>
                     <td class="product-info-modal text-center">
-                        <button type="button" class="bg-[#0051FF] text-white font-semibold  text-sm py-2 px-6 rounded transition opacity-100 hover:opacity-90">Buy Now</button>
+                        <button type="button" class="bg-cblue text-white font-semibold  text-sm py-2 px-6 rounded transition opacity-100 hover:opacity-90">Buy Now</button>
                     </td>
                 </tr>
                 <tr class="single-row-item text-left p-4 w-full">
@@ -175,7 +175,7 @@ export default {
                         $430.578.766.628
                     </td>
                     <td class="product-info-modal text-center">
-                        <button type="button" class="bg-[#0051FF] text-white font-semibold  text-sm py-2 px-6 rounded transition opacity-100 hover:opacity-90">Buy Now</button>
+                        <button type="button" class="bg-cblue text-white font-semibold  text-sm py-2 px-6 rounded transition opacity-100 hover:opacity-90">Buy Now</button>
                     </td>
                 </tr>
                 <tr class="single-row-item text-left p-4 w-full">
@@ -199,7 +199,7 @@ export default {
                         $430.578.766.628
                     </td>
                     <td class="product-info-modal text-center">
-                        <button type="button" class="bg-[#0051FF] text-white font-semibold  text-sm py-2 px-6 rounded transition opacity-100 hover:opacity-90">Buy Now</button>
+                        <button type="button" class="bg-cblue text-white font-semibold  text-sm py-2 px-6 rounded transition opacity-100 hover:opacity-90">Buy Now</button>
                     </td>
                 </tr>
                 <tr class="single-row-item text-left p-4 w-full">
@@ -223,7 +223,7 @@ export default {
                         $430.578.766.628
                     </td>
                     <td class="product-info-modal text-center">
-                        <button type="button" class="bg-[#0051FF] text-white font-semibold  text-sm py-2 px-6 rounded transition opacity-100 hover:opacity-90">Buy Now</button>
+                        <button type="button" class="bg-cblue text-white font-semibold  text-sm py-2 px-6 rounded transition opacity-100 hover:opacity-90">Buy Now</button>
                     </td>
                 </tr>
                 <tr class="single-row-item text-left p-4 w-full">
@@ -247,7 +247,7 @@ export default {
                         $430.578.766.628
                     </td>
                     <td class="product-info-modal text-center">
-                        <button type="button" class="bg-[#0051FF] text-white font-semibold  text-sm py-2 px-6 rounded transition opacity-100 hover:opacity-90">Buy Now</button>
+                        <button type="button" class="bg-cblue text-white font-semibold  text-sm py-2 px-6 rounded transition opacity-100 hover:opacity-90">Buy Now</button>
                     </td>
                 </tr>
                 <tr class="single-row-item text-left p-4 w-full">
@@ -271,7 +271,7 @@ export default {
                         $430.578.766.628
                     </td>
                     <td class="product-info-modal text-center">
-                        <button type="button" class="bg-[#0051FF] text-white font-semibold  text-sm py-2 px-6 rounded transition opacity-100 hover:opacity-90">Buy Now</button>
+                        <button type="button" class="bg-cblue text-white font-semibold  text-sm py-2 px-6 rounded transition opacity-100 hover:opacity-90">Buy Now</button>
                     </td>
                 </tr>
                 <tr class="single-row-item text-left p-4 w-full">
@@ -295,7 +295,7 @@ export default {
                         $430.578.766.628
                     </td>
                     <td class="product-info-modal text-center">
-                        <button type="button" class="bg-[#0051FF] text-white font-semibold  text-sm py-2 px-6 rounded transition opacity-100 hover:opacity-90">Buy Now</button>
+                        <button type="button" class="bg-cblue text-white font-semibold  text-sm py-2 px-6 rounded transition opacity-100 hover:opacity-90">Buy Now</button>
                     </td>
                 </tr>
                 <tr class="single-row-item text-left p-4 w-full">
@@ -319,7 +319,7 @@ export default {
                         $430.578.766.628
                     </td>
                     <td class="product-info-modal text-center">
-                        <button type="button" class="bg-[#0051FF] text-white font-semibold  text-sm py-2 px-6 rounded transition opacity-100 hover:opacity-90">Buy Now</button>
+                        <button type="button" class="bg-cblue text-white font-semibold  text-sm py-2 px-6 rounded transition opacity-100 hover:opacity-90">Buy Now</button>
                     </td>
                 </tr>
                 <tr class="single-row-item text-left p-4 w-full">
@@ -343,7 +343,7 @@ export default {
                         $430.578.766.628
                     </td>
                     <td class="product-info-modal text-center">
-                        <button type="button" class="bg-[#0051FF] text-white font-semibold  text-sm py-2 px-6 rounded transition opacity-100 hover:opacity-90">Buy Now</button>
+                        <button type="button" class="bg-cblue text-white font-semibold  text-sm py-2 px-6 rounded transition opacity-100 hover:opacity-90">Buy Now</button>
                     </td>
                 </tr>
                 <tr class="single-row-item text-left p-4 w-full">
@@ -367,7 +367,7 @@ export default {
                         $430.578.766.628
                     </td>
                     <td class="product-info-modal text-center">
-                        <button type="button" class="bg-[#0051FF] text-white font-semibold  text-sm py-2 px-6 rounded transition opacity-100 hover:opacity-90">Buy Now</button>
+                        <button type="button" class="bg-cblue text-white font-semibold  text-sm py-2 px-6 rounded transition opacity-100 hover:opacity-90">Buy Now</button>
                     </td>
                 </tr>
         </tbody>

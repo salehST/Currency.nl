@@ -388,8 +388,7 @@ export default {
 <template>
     <div class="flex flex-col md:flex-row items-start justify-start md:items-end md:justify-between mb-10">
         <div class="">
-            <h2 class=" text-[32px] md:text-5xl font-bold leading-9 md:leading-[57px] mb-3 md:mb-0"><span class="flex items-center">Popular <img
-                        src="@/assets/img/big-coin.svg" class="ml-2" alt=""></span><span
+            <h2 class=" text-[32px] text-primary md:text-5xl font-bold leading-9 md:leading-[57px] mb-3 md:mb-0"><span class="flex items-center">Popular</span><span
                     class="strick-line-inline">Cryptocurrencies</span> <br class="block md:hidden"> in 2023</h2>
         </div>
 
@@ -427,7 +426,7 @@ export default {
                 </button>
             </div>
             <div class="all-products-btn">
-                <a href="" class="text-[#0051FF] text-base font-semibold underline transition hover:no-underline">View All
+                <a href="" class="text-cblue text-base font-semibold underline transition hover:no-underline">View All
                     Providers</a>
             </div>
         </div>
@@ -476,7 +475,7 @@ export default {
                         <li class=" text-base font-semibold text-black">€ 76.38 M</li>
                     </ul>
                     <a href=""
-                        class="text-[#0051FF] text-sm font-semibold py-1.5 px-5 border rounded-full border-[#0051FF] group bg-transparent hover:text-white hover:bg-[#0051FF] transition flex items-center"><span
+                        class="text-cblue text-sm font-semibold py-1.5 px-5 border rounded-full border-[#0051FF] group bg-transparent hover:text-white hover:bg-cblue transition flex items-center"><span
                             class="mr-1.5">Bitvavo</span> <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path class="group-hover:stroke-[#ffffff] transition duration-300"
@@ -491,7 +490,7 @@ export default {
                         <li class=" text-base font-semibold text-black">€ 75.38 M</li>
                     </ul>
                     <a href=""
-                        class="text-[#0051FF] text-sm font-semibold py-1.5 px-5 border rounded-full border-[#0051FF] group bg-transparent hover:text-white hover:bg-[#0051FF] transition flex items-center"><span
+                        class="text-cblue text-sm font-semibold py-1.5 px-5 border rounded-full border-[#0051FF] group bg-transparent hover:text-white hover:bg-cblue transition flex items-center"><span
                             class="mr-1.5">Bitvavo</span> <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path class="group-hover:stroke-[#ffffff] transition duration-300"
@@ -542,7 +541,7 @@ export default {
                         <li class=" text-base font-semibold text-black">€ 56.38 M</li>
                     </ul>
                     <a href=""
-                        class="text-[#0051FF] text-sm font-semibold py-1.5 px-5 border rounded-full border-[#0051FF] group bg-transparent hover:text-white hover:bg-[#0051FF] transition flex items-center"><span
+                        class="text-cblue text-sm font-semibold py-1.5 px-5 border rounded-full border-[#0051FF] group bg-transparent hover:text-white hover:bg-cblue transition flex items-center"><span
                             class="mr-1.5">Bitvavo</span> <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path class="group-hover:stroke-[#ffffff] transition duration-300"
@@ -557,7 +556,7 @@ export default {
                         <li class=" text-base font-semibold text-black">€ 45.38 M</li>
                     </ul>
                     <a href=""
-                        class="text-[#0051FF] text-sm font-semibold py-1.5 px-5 border rounded-full border-[#0051FF] group bg-transparent hover:text-white hover:bg-[#0051FF] transition flex items-center"><span
+                        class="text-cblue text-sm font-semibold py-1.5 px-5 border rounded-full border-[#0051FF] group bg-transparent hover:text-white hover:bg-cblue transition flex items-center"><span
                             class="mr-1.5">Bitvavo</span> <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path class="group-hover:stroke-[#ffffff] transition duration-300"
@@ -606,7 +605,7 @@ export default {
                         <li class=" text-base font-semibold text-black">€ 46.38 M</li>
                     </ul>
                     <a href=""
-                        class="text-[#0051FF] text-sm font-semibold py-1.5 px-5 border rounded-full border-[#0051FF] group bg-transparent hover:text-white hover:bg-[#0051FF] transition flex items-center"><span
+                        class="text-cblue text-sm font-semibold py-1.5 px-5 border rounded-full border-[#0051FF] group bg-transparent hover:text-white hover:bg-cblue transition flex items-center"><span
                             class="mr-1.5">Bitvavo</span> <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path class="group-hover:stroke-[#ffffff] transition duration-300"
@@ -621,7 +620,7 @@ export default {
                         <li class=" text-base font-semibold text-black">€ 35.38 M</li>
                     </ul>
                     <a href=""
-                        class="text-[#0051FF] text-sm font-semibold py-1.5 px-5 border rounded-full border-[#0051FF] group bg-transparent hover:text-white hover:bg-[#0051FF] transition flex items-center"><span
+                        class="text-cblue text-sm font-semibold py-1.5 px-5 border rounded-full border-[#0051FF] group bg-transparent hover:text-white hover:bg-cblue transition flex items-center"><span
                             class="mr-1.5">Bitvavo</span> <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path class="group-hover:stroke-[#ffffff] transition duration-300"
@@ -673,7 +672,7 @@ export default {
                         <li class=" text-base font-semibold text-black">€ 56.38 M</li>
                     </ul>
                     <a href=""
-                        class="text-[#0051FF] text-sm font-semibold py-1.5 px-5 border rounded-full border-[#0051FF] group bg-transparent hover:text-white hover:bg-[#0051FF] transition flex items-center"><span
+                        class="text-cblue text-sm font-semibold py-1.5 px-5 border rounded-full border-[#0051FF] group bg-transparent hover:text-white hover:bg-cblue transition flex items-center"><span
                             class="mr-1.5">Bitvavo</span> <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path class="group-hover:stroke-[#ffffff] transition duration-300"
@@ -688,7 +687,7 @@ export default {
                         <li class=" text-base font-semibold text-black">€ 45.38 M</li>
                     </ul>
                     <a href=""
-                        class="text-[#0051FF] text-sm font-semibold py-1.5 px-5 border rounded-full border-[#0051FF] group bg-transparent hover:text-white hover:bg-[#0051FF] transition flex items-center"><span
+                        class="text-cblue text-sm font-semibold py-1.5 px-5 border rounded-full border-[#0051FF] group bg-transparent hover:text-white hover:bg-cblue transition flex items-center"><span
                             class="mr-1.5">Bitvavo</span> <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path class="group-hover:stroke-[#ffffff] transition duration-300"
@@ -739,7 +738,7 @@ export default {
                         <li class=" text-base font-semibold text-black">€ 76.38 M</li>
                     </ul>
                     <a href=""
-                        class="text-[#0051FF] text-sm font-semibold py-1.5 px-5 border rounded-full border-[#0051FF] group bg-transparent hover:text-white hover:bg-[#0051FF] transition flex items-center"><span
+                        class="text-cblue text-sm font-semibold py-1.5 px-5 border rounded-full border-[#0051FF] group bg-transparent hover:text-white hover:bg-cblue transition flex items-center"><span
                             class="mr-1.5">Bitvavo</span> <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path class="group-hover:stroke-[#ffffff] transition duration-300"
@@ -754,7 +753,7 @@ export default {
                         <li class=" text-base font-semibold text-black">€ 75.38 M</li>
                     </ul>
                     <a href=""
-                        class="text-[#0051FF] text-sm font-semibold py-1.5 px-5 border rounded-full border-[#0051FF] group bg-transparent hover:text-white hover:bg-[#0051FF] transition flex items-center"><span
+                        class="text-cblue text-sm font-semibold py-1.5 px-5 border rounded-full border-[#0051FF] group bg-transparent hover:text-white hover:bg-cblue transition flex items-center"><span
                             class="mr-1.5">Bitvavo</span> <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path class="group-hover:stroke-[#ffffff] transition duration-300"
@@ -805,7 +804,7 @@ export default {
                         <li class=" text-base font-semibold text-black">€ 56.38 M</li>
                     </ul>
                     <a href=""
-                        class="text-[#0051FF] text-sm font-semibold py-1.5 px-5 border rounded-full border-[#0051FF] group bg-transparent hover:text-white hover:bg-[#0051FF] transition flex items-center"><span
+                        class="text-cblue text-sm font-semibold py-1.5 px-5 border rounded-full border-[#0051FF] group bg-transparent hover:text-white hover:bg-cblue transition flex items-center"><span
                             class="mr-1.5">Bitvavo</span> <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path class="group-hover:stroke-[#ffffff] transition duration-300"
@@ -820,7 +819,7 @@ export default {
                         <li class=" text-base font-semibold text-black">€ 45.38 M</li>
                     </ul>
                     <a href=""
-                        class="text-[#0051FF] text-sm font-semibold py-1.5 px-5 border rounded-full border-[#0051FF] group bg-transparent hover:text-white hover:bg-[#0051FF] transition flex items-center"><span
+                        class="text-cblue text-sm font-semibold py-1.5 px-5 border rounded-full border-[#0051FF] group bg-transparent hover:text-white hover:bg-cblue transition flex items-center"><span
                             class="mr-1.5">Bitvavo</span> <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path class="group-hover:stroke-[#ffffff] transition duration-300"
@@ -869,7 +868,7 @@ export default {
                     <li class=" text-base font-semibold text-black">€ 46.38 M</li>
                 </ul>
                 <a href=""
-                    class="text-[#0051FF] text-sm font-semibold py-1.5 px-5 border rounded-full border-[#0051FF] group bg-transparent hover:text-white hover:bg-[#0051FF] transition flex items-center"><span
+                    class="text-cblue text-sm font-semibold py-1.5 px-5 border rounded-full border-[#0051FF] group bg-transparent hover:text-white hover:bg-cblue transition flex items-center"><span
                         class="mr-1.5">Bitvavo</span> <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
                         <path class="group-hover:stroke-[#ffffff] transition duration-300"
@@ -884,7 +883,7 @@ export default {
                     <li class=" text-base font-semibold text-black">€ 35.38 M</li>
                 </ul>
                 <a href=""
-                    class="text-[#0051FF] text-sm font-semibold py-1.5 px-5 border rounded-full border-[#0051FF] group bg-transparent hover:text-white hover:bg-[#0051FF] transition flex items-center"><span
+                    class="text-cblue text-sm font-semibold py-1.5 px-5 border rounded-full border-[#0051FF] group bg-transparent hover:text-white hover:bg-cblue transition flex items-center"><span
                         class="mr-1.5">Bitvavo</span> <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
                         <path class="group-hover:stroke-[#ffffff] transition duration-300"
@@ -936,7 +935,7 @@ export default {
                     <li class=" text-base font-semibold text-black">€ 56.38 M</li>
                 </ul>
                 <a href=""
-                    class="text-[#0051FF] text-sm font-semibold py-1.5 px-5 border rounded-full border-[#0051FF] group bg-transparent hover:text-white hover:bg-[#0051FF] transition flex items-center"><span
+                    class="text-cblue text-sm font-semibold py-1.5 px-5 border rounded-full border-[#0051FF] group bg-transparent hover:text-white hover:bg-cblue transition flex items-center"><span
                         class="mr-1.5">Bitvavo</span> <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
                         <path class="group-hover:stroke-[#ffffff] transition duration-300"
@@ -951,7 +950,7 @@ export default {
                     <li class=" text-base font-semibold text-black">€ 45.38 M</li>
                 </ul>
                 <a href=""
-                    class="text-[#0051FF] text-sm font-semibold py-1.5 px-5 border rounded-full border-[#0051FF] group bg-transparent hover:text-white hover:bg-[#0051FF] transition flex items-center"><span
+                    class="text-cblue text-sm font-semibold py-1.5 px-5 border rounded-full border-[#0051FF] group bg-transparent hover:text-white hover:bg-cblue transition flex items-center"><span
                         class="mr-1.5">Bitvavo</span> <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
                         <path class="group-hover:stroke-[#ffffff] transition duration-300"

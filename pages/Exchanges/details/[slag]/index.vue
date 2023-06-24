@@ -56,8 +56,8 @@ export default {
     </section>
     <section class="w-full bg-[#F1F5FE] p-10 md:p-12 md:pt-16">
         <div class="container mx-auto max-w-screen-xl"> <!-- container start -->
-            <div class="detail-content flex flex-col md:flex-row items-start justify-between">
-                <div class="w-full md:w-[800px]">
+            <div class="detail-content flex flex-col lg:flex-row items-start justify-between">
+                <div class="w-full lg:w-[800px]">
                     <div class="post-content mh-fixed">
                         <div class="mb-10">
 
@@ -71,7 +71,7 @@ export default {
                         </div>
                         <div class="mb-10">
 
-                            <h2 class="font-semibold text-[32px] text-black">Advantages of Bitvavo</h2>
+                            <h2 class="font-semibold text-[32px]  text-black">Advantages of Bitvavo</h2>
                             <p class="text-[#6B6C6F] text-sm font-normal leading-7">Bitvavo has quite a lot of advantages
                                 compared to many other cryptocurrency platforms, we will explain a few of them for you.</p>
                         </div>
@@ -114,7 +114,7 @@ export default {
                                 </button>
                     </div>
                     
-                    <div class="block md:hidden sidebar-info">
+                    <div class="block lg:hidden sidebar-info">
                         <div class="bg-white rounded-2xl p-5 pb-7 mb-6">
                             <h3 class=" text-2xl font-normal text-black">Overall rating</h3>
                             <div class="rating mb-6">
@@ -163,7 +163,7 @@ export default {
                                         <span class="">Ease of use</span> <span class="">4.5</span>
                                     </div>
                                     <div class="h-[10px] w-full bg-[#F1F5FE] rounded-[10px]">
-                                        <div class="h-[10px] bg-[#0051FF] rounded-[10px]" style="width: 90%"></div>
+                                        <div class="h-[10px] bg-cblue rounded-[10px]" style="width: 90%"></div>
                                     </div>
                                 </div>
                                 <div class="mb-6">
@@ -171,7 +171,7 @@ export default {
                                         <span class="">Value for money</span> <span class="">4.5</span>
                                     </div>
                                     <div class="h-[10px] w-full bg-[#F1F5FE] rounded-[10px]">
-                                        <div class="h-[10px] bg-[#0051FF] rounded-[10px]" style="width: 90%"></div>
+                                        <div class="h-[10px] bg-cblue rounded-[10px]" style="width: 90%"></div>
                                     </div>
                                 </div>
                                 <div class="mb-6">
@@ -179,7 +179,7 @@ export default {
                                         <span class="">Verification</span> <span class="">4</span>
                                     </div>
                                     <div class="h-[10px] w-full bg-[#F1F5FE] rounded-[10px]">
-                                        <div class="h-[10px] bg-[#0051FF] rounded-[10px]" style="width: 80%"></div>
+                                        <div class="h-[10px] bg-cblue rounded-[10px]" style="width: 80%"></div>
                                     </div>
                                 </div>
                                 <div class="mb-6">
@@ -187,12 +187,12 @@ export default {
                                         <span class="">Support</span> <span class="">3.5</span>
                                     </div>
                                     <div class="h-[10px] w-full bg-[#F1F5FE] rounded-[10px]">
-                                        <div class="h-[10px] bg-[#0051FF] rounded-[10px]" style="width: 70%"></div>
+                                        <div class="h-[10px] bg-cblue rounded-[10px]" style="width: 70%"></div>
                                     </div>
                                 </div>
                             </div>
                             <a href=""
-                                class="text-[#0051FF] text-base font-semibold py-1.5 px-5 border rounded-full border-[#0051FF] group bg-transparent hover:text-white hover:bg-[#0051FF] transition flex mx-auto items-center justify-center"
+                                class="text-cblue text-base font-semibold py-1.5 px-5 border rounded-full border-[#0051FF] group bg-transparent hover:text-white hover:bg-cblue transition flex mx-auto items-center justify-center"
                                 data-v-7fd49c2f="">
                                 <span class="mr-1.5" data-v-7fd49c2f="">Go to Website</span>
                                 <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
@@ -273,7 +273,7 @@ export default {
                                             <span
                                                 class="rating-ex mx-2 px-2 border-r border-l border-[#F1F5FE] font-normal text-sm text-black flex items-center gap-1">
                                                 <img src="@/assets/img/icons/star.svg" alt=""> 5.0</span> <a href=""
-                                                class="group text-[10px] text-[#0051FF] font-normal flex items-center">Visit
+                                                class="group text-[10px] text-cblue font-normal flex items-center">Visit
                                                 Exchange <img src="@/assets/img/arrow-right-blue.svg"
                                                     class="ml-1 translate-x-0 transition group-hover:translate-x-1"
                                                     alt=""></a></div>
@@ -294,7 +294,7 @@ export default {
                                             <span
                                                 class="rating-ex mx-2 px-2 border-r border-l border-[#F1F5FE] font-normal text-sm text-black flex items-center gap-1">
                                                 <img src="@/assets/img/icons/star.svg" alt=""> 5.0</span> <a href=""
-                                                class="group text-[10px] text-[#0051FF] font-normal flex items-center">Visit
+                                                class="group text-[10px] text-cblue font-normal flex items-center">Visit
                                                 Exchange <img src="@/assets/img/arrow-right-blue.svg"
                                                     class="ml-1 translate-x-0 transition group-hover:translate-x-1"
                                                     alt=""></a></div>
@@ -315,7 +315,7 @@ export default {
                                             <span
                                                 class="rating-ex mx-2 px-2 border-r border-l border-[#F1F5FE] font-normal text-sm text-black flex items-center gap-1">
                                                 <img src="@/assets/img/icons/star.svg" alt=""> 5.0</span> <a href=""
-                                                class="group text-[10px] text-[#0051FF] font-normal flex items-center">Visit
+                                                class="group text-[10px] text-cblue font-normal flex items-center">Visit
                                                 Exchange <img src="@/assets/img/arrow-right-blue.svg"
                                                     class="ml-1 translate-x-0 transition group-hover:translate-x-1"
                                                     alt=""></a></div>
@@ -336,7 +336,7 @@ export default {
                                             <span
                                                 class="rating-ex mx-2 px-2 border-r border-l border-[#F1F5FE] font-normal text-sm text-black flex items-center gap-1">
                                                 <img src="@/assets/img/icons/star.svg" alt=""> 5.0</span> <a href=""
-                                                class="group text-[10px] text-[#0051FF] font-normal flex items-center">Visit
+                                                class="group text-[10px] text-cblue font-normal flex items-center">Visit
                                                 Exchange <img src="@/assets/img/arrow-right-blue.svg"
                                                     class="ml-1 translate-x-0 transition group-hover:translate-x-1"
                                                     alt=""></a></div>
@@ -346,7 +346,7 @@ export default {
                         </div>
 
                         <a href=""
-                                                class="group text-base text-[#0051FF] font-medium flex items-center justify-center mt-6">All Exchanges <img src="@/assets/img/arrow-right-blue.svg"
+                                                class="group text-base text-cblue font-medium flex items-center justify-center mt-6">All Exchanges <img src="@/assets/img/arrow-right-blue.svg"
                                                     class="ml-1 translate-x-0 transition group-hover:translate-x-1"
                                                     alt=""></a>
                     </div>
@@ -359,7 +359,7 @@ export default {
         :key="index"
         @click="activeTab = index"
         :class="{
-          'bg-[#0051FF] text-white font-semibold': activeTab === index,
+          'bg-cblue text-white font-semibold': activeTab === index,
           'bg-[#D1D8E8] font-normal': activeTab !== index
         }"
         class="px-4 py-3 text-xs  rounded-tl-lg rounded-tr-lg mr-2 focus:outline-none"
@@ -548,7 +548,7 @@ export default {
                     <ReviewCustomerReview />
                     
                 </div>
-                <div class="hidden md:flex md:w-[298px]">
+                <div class="hidden lg:flex lg:w-[298px]">
                     <div class="sidebar-info">
                         <div class="bg-white rounded-2xl p-5 pb-7 mb-6">
                             <h3 class=" text-2xl font-normal text-black">Overall rating</h3>
@@ -598,7 +598,7 @@ export default {
                                         <span class="">Ease of use</span> <span class="">4.5</span>
                                     </div>
                                     <div class="h-[10px] w-full bg-[#F1F5FE] rounded-[10px]">
-                                        <div class="h-[10px] bg-[#0051FF] rounded-[10px]" style="width: 90%"></div>
+                                        <div class="h-[10px] bg-cblue rounded-[10px]" style="width: 90%"></div>
                                     </div>
                                 </div>
                                 <div class="mb-6">
@@ -606,7 +606,7 @@ export default {
                                         <span class="">Value for money</span> <span class="">4.5</span>
                                     </div>
                                     <div class="h-[10px] w-full bg-[#F1F5FE] rounded-[10px]">
-                                        <div class="h-[10px] bg-[#0051FF] rounded-[10px]" style="width: 90%"></div>
+                                        <div class="h-[10px] bg-cblue rounded-[10px]" style="width: 90%"></div>
                                     </div>
                                 </div>
                                 <div class="mb-6">
@@ -614,7 +614,7 @@ export default {
                                         <span class="">Verification</span> <span class="">4</span>
                                     </div>
                                     <div class="h-[10px] w-full bg-[#F1F5FE] rounded-[10px]">
-                                        <div class="h-[10px] bg-[#0051FF] rounded-[10px]" style="width: 80%"></div>
+                                        <div class="h-[10px] bg-cblue rounded-[10px]" style="width: 80%"></div>
                                     </div>
                                 </div>
                                 <div class="mb-6">
@@ -622,12 +622,12 @@ export default {
                                         <span class="">Support</span> <span class="">3.5</span>
                                     </div>
                                     <div class="h-[10px] w-full bg-[#F1F5FE] rounded-[10px]">
-                                        <div class="h-[10px] bg-[#0051FF] rounded-[10px]" style="width: 70%"></div>
+                                        <div class="h-[10px] bg-cblue rounded-[10px]" style="width: 70%"></div>
                                     </div>
                                 </div>
                             </div>
                             <a href=""
-                                class="text-[#0051FF] text-base font-semibold py-1.5 px-5 border rounded-full border-[#0051FF] group bg-transparent hover:text-white hover:bg-[#0051FF] transition flex mx-auto items-center justify-center"
+                                class="text-cblue text-base font-semibold py-1.5 px-5 border rounded-full border-[#0051FF] group bg-transparent hover:text-white hover:bg-cblue transition flex mx-auto items-center justify-center"
                                 data-v-7fd49c2f="">
                                 <span class="mr-1.5" data-v-7fd49c2f="">Go to Website</span>
                                 <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
@@ -708,7 +708,7 @@ export default {
                                             <span
                                                 class="rating-ex mx-2 px-2 border-r border-l border-[#F1F5FE] font-normal text-sm text-black flex items-center gap-1">
                                                 <img src="@/assets/img/icons/star.svg" alt=""> 5.0</span> <a href=""
-                                                class="group text-[10px] text-[#0051FF] font-normal flex items-center">Visit
+                                                class="group text-[10px] text-cblue font-normal flex items-center">Visit
                                                 Exchange <img src="@/assets/img/arrow-right-blue.svg"
                                                     class="ml-1 translate-x-0 transition group-hover:translate-x-1"
                                                     alt=""></a></div>
@@ -729,7 +729,7 @@ export default {
                                             <span
                                                 class="rating-ex mx-2 px-2 border-r border-l border-[#F1F5FE] font-normal text-sm text-black flex items-center gap-1">
                                                 <img src="@/assets/img/icons/star.svg" alt=""> 5.0</span> <a href=""
-                                                class="group text-[10px] text-[#0051FF] font-normal flex items-center">Visit
+                                                class="group text-[10px] text-cblue font-normal flex items-center">Visit
                                                 Exchange <img src="@/assets/img/arrow-right-blue.svg"
                                                     class="ml-1 translate-x-0 transition group-hover:translate-x-1"
                                                     alt=""></a></div>
@@ -750,7 +750,7 @@ export default {
                                             <span
                                                 class="rating-ex mx-2 px-2 border-r border-l border-[#F1F5FE] font-normal text-sm text-black flex items-center gap-1">
                                                 <img src="@/assets/img/icons/star.svg" alt=""> 5.0</span> <a href=""
-                                                class="group text-[10px] text-[#0051FF] font-normal flex items-center">Visit
+                                                class="group text-[10px] text-cblue font-normal flex items-center">Visit
                                                 Exchange <img src="@/assets/img/arrow-right-blue.svg"
                                                     class="ml-1 translate-x-0 transition group-hover:translate-x-1"
                                                     alt=""></a></div>
@@ -771,7 +771,7 @@ export default {
                                             <span
                                                 class="rating-ex mx-2 px-2 border-r border-l border-[#F1F5FE] font-normal text-sm text-black flex items-center gap-1">
                                                 <img src="@/assets/img/icons/star.svg" alt=""> 5.0</span> <a href=""
-                                                class="group text-[10px] text-[#0051FF] font-normal flex items-center">Visit
+                                                class="group text-[10px] text-cblue font-normal flex items-center">Visit
                                                 Exchange <img src="@/assets/img/arrow-right-blue.svg"
                                                     class="ml-1 translate-x-0 transition group-hover:translate-x-1"
                                                     alt=""></a></div>
@@ -781,7 +781,7 @@ export default {
                         </div>
 
                         <a href=""
-                                                class="group text-base text-[#0051FF] font-medium flex items-center justify-center mt-6">All Exchanges <img src="@/assets/img/arrow-right-blue.svg"
+                                                class="group text-base text-cblue font-medium flex items-center justify-center mt-6">All Exchanges <img src="@/assets/img/arrow-right-blue.svg"
                                                     class="ml-1 translate-x-0 transition group-hover:translate-x-1"
                                                     alt=""></a>
                     </div>

@@ -26,7 +26,7 @@
                                 class="text-[#A3ABBD] font-normal focus:outline-none active:outline-none w-full lg:w-auto hover:outline-none text-sm bg-transparent"
                                 placeholder="Search the Exchange">
                             <button type="submit"
-                                class="bg-[#0051FF] relative right-0 text-white font-normal text-sm rounded-full py-2 px-7">Search</button>
+                                class="bg-cblue relative right-0 text-white font-normal text-sm rounded-full py-2 px-7">Search</button>
                         </form>
                     </div>
                 </div>
@@ -138,8 +138,8 @@
                         $430.578.766.628
                     </td>
                     <td class="product-info-modal text-center">
-                        <button type="button" class="bg-[#0051FF] text-white font-semibold  text-sm py-2 px-6 rounded transition opacity-100 hover:opacity-90 hidden md:table-cell">Buy Now</button>
-                        <button type="button" class="bg-[#0051FF] text-white font-semibold  text-sm py-2 px-3 rounded transition opacity-100 hover:opacity-90 md:hidden table-cell">Buy</button>
+                        <button type="button" class="bg-cblue text-white font-semibold  text-sm py-2 px-6 rounded transition opacity-100 hover:opacity-90 hidden md:table-cell">Buy Now</button>
+                        <button type="button" class="bg-cblue text-white font-semibold  text-sm py-2 px-3 rounded transition opacity-100 hover:opacity-90 md:hidden table-cell">Buy</button>
                     </td>
                 </tr>
                 <tr class="single-row-item text-left p-4 w-full">
@@ -171,8 +171,8 @@
                         $430.578.766.628
                     </td>
                     <td class="product-info-modal text-center">
-                        <button type="button" class="bg-[#0051FF] text-white font-semibold  text-sm py-2 px-6 rounded transition opacity-100 hover:opacity-90 hidden md:table-cell">Buy Now</button>
-                        <button type="button" class="bg-[#0051FF] text-white font-semibold  text-sm py-2 px-3 rounded transition opacity-100 hover:opacity-90 md:hidden table-cell">Buy</button>
+                        <button type="button" class="bg-cblue text-white font-semibold  text-sm py-2 px-6 rounded transition opacity-100 hover:opacity-90 hidden md:table-cell">Buy Now</button>
+                        <button type="button" class="bg-cblue text-white font-semibold  text-sm py-2 px-3 rounded transition opacity-100 hover:opacity-90 md:hidden table-cell">Buy</button>
                     </td>
                 </tr>
                 <tr class="single-row-item text-left p-4 w-full">
@@ -204,8 +204,8 @@
                         $430.578.766.628
                     </td>
                     <td class="product-info-modal text-center">
-                        <button type="button" class="bg-[#0051FF] text-white font-semibold  text-sm py-2 px-6 rounded transition opacity-100 hover:opacity-90 hidden md:table-cell">Buy Now</button>
-                        <button type="button" class="bg-[#0051FF] text-white font-semibold  text-sm py-2 px-3 rounded transition opacity-100 hover:opacity-90 md:hidden table-cell">Buy</button>
+                        <button type="button" class="bg-cblue text-white font-semibold  text-sm py-2 px-6 rounded transition opacity-100 hover:opacity-90 hidden md:table-cell">Buy Now</button>
+                        <button type="button" class="bg-cblue text-white font-semibold  text-sm py-2 px-3 rounded transition opacity-100 hover:opacity-90 md:hidden table-cell">Buy</button>
                     </td>
                 </tr>
                 <tr class="single-row-item text-left p-4 w-full">
@@ -237,8 +237,8 @@
                         $430.578.766.628
                     </td>
                     <td class="product-info-modal text-center">
-                        <button type="button" class="bg-[#0051FF] text-white font-semibold  text-sm py-2 px-6 rounded transition opacity-100 hover:opacity-90 hidden md:table-cell">Buy Now</button>
-                        <button type="button" class="bg-[#0051FF] text-white font-semibold  text-sm py-2 px-3 rounded transition opacity-100 hover:opacity-90 md:hidden table-cell">Buy</button>
+                        <button type="button" class="bg-cblue text-white font-semibold  text-sm py-2 px-6 rounded transition opacity-100 hover:opacity-90 hidden md:table-cell">Buy Now</button>
+                        <button type="button" class="bg-cblue text-white font-semibold  text-sm py-2 px-3 rounded transition opacity-100 hover:opacity-90 md:hidden table-cell">Buy</button>
                     </td>
                 </tr>
                 <tr class="single-row-item text-left p-4 w-full">
@@ -270,8 +270,8 @@
                         $430.578.766.628
                     </td>
                     <td class="product-info-modal text-center">
-                        <button type="button" class="bg-[#0051FF] text-white font-semibold  text-sm py-2 px-6 rounded transition opacity-100 hover:opacity-90 hidden md:table-cell">Buy Now</button>
-                        <button type="button" class="bg-[#0051FF] text-white font-semibold  text-sm py-2 px-3 rounded transition opacity-100 hover:opacity-90 md:hidden table-cell">Buy</button>
+                        <button type="button" class="bg-cblue text-white font-semibold  text-sm py-2 px-6 rounded transition opacity-100 hover:opacity-90 hidden md:table-cell">Buy Now</button>
+                        <button type="button" class="bg-cblue text-white font-semibold  text-sm py-2 px-3 rounded transition opacity-100 hover:opacity-90 md:hidden table-cell">Buy</button>
                     </td>
                 </tr>
                 <tr class="single-row-item text-left p-4 w-full">
@@ -303,8 +303,8 @@
                         $430.578.766.628
                     </td>
                     <td class="product-info-modal text-center">
-                        <button type="button" class="bg-[#0051FF] text-white font-semibold  text-sm py-2 px-6 rounded transition opacity-100 hover:opacity-90 hidden md:table-cell">Buy Now</button>
-                        <button type="button" class="bg-[#0051FF] text-white font-semibold  text-sm py-2 px-3 rounded transition opacity-100 hover:opacity-90 md:hidden table-cell">Buy</button>
+                        <button type="button" class="bg-cblue text-white font-semibold  text-sm py-2 px-6 rounded transition opacity-100 hover:opacity-90 hidden md:table-cell">Buy Now</button>
+                        <button type="button" class="bg-cblue text-white font-semibold  text-sm py-2 px-3 rounded transition opacity-100 hover:opacity-90 md:hidden table-cell">Buy</button>
                     </td>
                 </tr>
                 <tr class="single-row-item text-left p-4 w-full">
@@ -336,8 +336,8 @@
                         $430.578.766.628
                     </td>
                     <td class="product-info-modal text-center">
-                        <button type="button" class="bg-[#0051FF] text-white font-semibold  text-sm py-2 px-6 rounded transition opacity-100 hover:opacity-90 hidden md:table-cell">Buy Now</button>
-                        <button type="button" class="bg-[#0051FF] text-white font-semibold  text-sm py-2 px-3 rounded transition opacity-100 hover:opacity-90 md:hidden table-cell">Buy</button>
+                        <button type="button" class="bg-cblue text-white font-semibold  text-sm py-2 px-6 rounded transition opacity-100 hover:opacity-90 hidden md:table-cell">Buy Now</button>
+                        <button type="button" class="bg-cblue text-white font-semibold  text-sm py-2 px-3 rounded transition opacity-100 hover:opacity-90 md:hidden table-cell">Buy</button>
                     </td>
                 </tr>
                 <tr class="single-row-item text-left p-4 w-full">
@@ -369,8 +369,8 @@
                         $430.578.766.628
                     </td>
                     <td class="product-info-modal text-center">
-                        <button type="button" class="bg-[#0051FF] text-white font-semibold  text-sm py-2 px-6 rounded transition opacity-100 hover:opacity-90 hidden md:table-cell">Buy Now</button>
-                        <button type="button" class="bg-[#0051FF] text-white font-semibold  text-sm py-2 px-3 rounded transition opacity-100 hover:opacity-90 md:hidden table-cell">Buy</button>
+                        <button type="button" class="bg-cblue text-white font-semibold  text-sm py-2 px-6 rounded transition opacity-100 hover:opacity-90 hidden md:table-cell">Buy Now</button>
+                        <button type="button" class="bg-cblue text-white font-semibold  text-sm py-2 px-3 rounded transition opacity-100 hover:opacity-90 md:hidden table-cell">Buy</button>
                     </td>
                 </tr>
                 <tr class="single-row-item text-left p-4 w-full">
@@ -402,8 +402,8 @@
                         $430.578.766.628
                     </td>
                     <td class="product-info-modal text-center">
-                        <button type="button" class="bg-[#0051FF] text-white font-semibold  text-sm py-2 px-6 rounded transition opacity-100 hover:opacity-90 hidden md:table-cell">Buy Now</button>
-                        <button type="button" class="bg-[#0051FF] text-white font-semibold  text-sm py-2 px-3 rounded transition opacity-100 hover:opacity-90 md:hidden table-cell">Buy</button>
+                        <button type="button" class="bg-cblue text-white font-semibold  text-sm py-2 px-6 rounded transition opacity-100 hover:opacity-90 hidden md:table-cell">Buy Now</button>
+                        <button type="button" class="bg-cblue text-white font-semibold  text-sm py-2 px-3 rounded transition opacity-100 hover:opacity-90 md:hidden table-cell">Buy</button>
                     </td>
                 </tr>
                 <tr class="single-row-item text-left p-4 w-full">
@@ -435,8 +435,8 @@
                         $430.578.766.628
                     </td>
                     <td class="product-info-modal text-center">
-                        <button type="button" class="bg-[#0051FF] text-white font-semibold  text-sm py-2 px-6 rounded transition opacity-100 hover:opacity-90 hidden md:table-cell">Buy Now</button>
-                        <button type="button" class="bg-[#0051FF] text-white font-semibold  text-sm py-2 px-3 rounded transition opacity-100 hover:opacity-90 md:hidden table-cell">Buy</button>
+                        <button type="button" class="bg-cblue text-white font-semibold  text-sm py-2 px-6 rounded transition opacity-100 hover:opacity-90 hidden md:table-cell">Buy Now</button>
+                        <button type="button" class="bg-cblue text-white font-semibold  text-sm py-2 px-3 rounded transition opacity-100 hover:opacity-90 md:hidden table-cell">Buy</button>
                     </td>
                 </tr>
         </tbody>
@@ -445,29 +445,29 @@
     <div class="pagination">
             <div class="flex items-center justify-center md:justify-end mt-4">
   <nav class="flex gap-2">
-    <a href="#" class="items-center flex justify-center rounded bg-white text-black hover:bg-[#0051FF] hover:text-white">
+    <a href="#" class="items-center flex justify-center rounded bg-white text-black hover:bg-cblue hover:text-white">
         <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect width="32" height="32" rx="4" fill="white"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M18.7071 11.2929C19.0976 11.6834 19.0976 12.3166 18.7071 12.7071L15.4142 16L18.7071 19.2929C19.0976 19.6834 19.0976 20.3166 18.7071 20.7071C18.3166 21.0976 17.6834 21.0976 17.2929 20.7071L13.2929 16.7071C12.9024 16.3166 12.9024 15.6834 13.2929 15.2929L17.2929 11.2929C17.6834 10.9024 18.3166 10.9024 18.7071 11.2929Z" fill="#B4BAC6"/>
 </svg>
 
     </a>
-    <a href="#" class="h-8 w-8 items-center flex justify-center bg-[#0051FF] text-white rounded">
+    <a href="#" class="h-8 w-8 items-center flex justify-center bg-cblue text-white rounded">
       1
     </a>
-    <a href="#" class="h-8 w-8 items-center flex justify-center  rounded bg-white text-black hover:bg-[#0051FF] hover:text-white">
+    <a href="#" class="h-8 w-8 items-center flex justify-center  rounded bg-white text-black hover:bg-cblue hover:text-white">
       2
     </a>
-    <a href="#" class="h-8 w-8 items-center flex justify-center  rounded bg-white text-black hover:bg-[#0051FF] hover:text-white">
+    <a href="#" class="h-8 w-8 items-center flex justify-center  rounded bg-white text-black hover:bg-cblue hover:text-white">
       3
     </a>
-    <a href="#" class="h-8 w-8 items-center flex justify-center  rounded bg-white text-black hover:bg-[#0051FF] hover:text-white">
+    <a href="#" class="h-8 w-8 items-center flex justify-center  rounded bg-white text-black hover:bg-cblue hover:text-white">
       4
     </a>
-    <a href="#" class="h-8 w-8 items-center flex justify-center  rounded bg-white text-black hover:bg-[#0051FF] hover:text-white">
+    <a href="#" class="h-8 w-8 items-center flex justify-center  rounded bg-white text-black hover:bg-cblue hover:text-white">
       &hellip;
     </a>
-    <a href="#" class="group items-center flex justify-center  rounded bg-white text-black hover:bg-[#0051FF] hover:text-white">
+    <a href="#" class="group items-center flex justify-center  rounded bg-white text-black hover:bg-cblue hover:text-white">
         <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect class=" group-hover:fill-[#0051FF]" width="32" height="32" rx="4" fill="white"/>
 <path class=" group-hover:fill-[#fff]" fill-rule="evenodd" clip-rule="evenodd" d="M13.2929 20.7071C12.9024 20.3166 12.9024 19.6834 13.2929 19.2929L16.5858 16L13.2929 12.7071C12.9024 12.3166 12.9024 11.6834 13.2929 11.2929C13.6834 10.9024 14.3166 10.9024 14.7071 11.2929L18.7071 15.2929C19.0976 15.6834 19.0976 16.3166 18.7071 16.7071L14.7071 20.7071C14.3166 21.0976 13.6834 21.0976 13.2929 20.7071Z" fill="black"/>

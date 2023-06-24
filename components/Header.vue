@@ -102,10 +102,10 @@ export default {
                             class="mr-3 h-[40px] sm:h-[50px]" alt="Logo" /></NuxtLink>
                     <div class="search-area py-2 mx-2 text-sm font-semibold text-[#0052fe] flex flex-col md:flex-row items-start w-full md:w-auto md:items-center justify-start md:justify-center bg-white hover:text-blue-500 ">
                         
-                        <NuxtLink to="/" class="text-base md:text-sm font-semibold py-5 px-5 text-black transition hover:text-[#0051FF] w-full md:w-auto">Home</NuxtLink>
+                        <NuxtLink to="/" class="text-base md:text-sm font-semibold py-5 px-5 text-black transition hover:text-cblue w-full md:w-auto">Home</NuxtLink>
                         <div class="flex items-center w-full md:w-auto">
                             <div class="mega-menu inline-flex items-center bg-white w-full md:w-auto">                               
-                                    <NuxtLink to="/exchanges" class="text-base md:text-sm font-semibold border-y border-[#DEE4F1] w-full md:w-auto md:border-none py-5 px-5 text-black transition hover:text-[#0051FF]">Exchanges
+                                    <NuxtLink to="/exchanges" class="text-base md:text-sm font-semibold border-y border-[#DEE4F1] w-full md:w-auto md:border-none py-5 px-5 text-black transition hover:text-cblue">Exchanges
                                     </NuxtLink>
                                 <div
                                     class="menu-wrapper hidden mega-menu-wrapper top-[75px] absolute right-0 w-full origin-top-right z-40 grid-cols-1 text-sm bg-white shadow-md md:grid">
@@ -198,7 +198,7 @@ export default {
                                                         </ul>
                                                     </div>
                                                     
-                                                <a href="" class=" text-[#0051FF] text-sm font-normal flex items-center">Visit Exchange <img src="@/assets/img/icons/arrow-right-blue.svg" class="ml-2 h-[14px] w-[14px]" alt=""></a>
+                                                <a href="" class=" text-cblue text-sm font-normal flex items-center">Visit Exchange <img src="@/assets/img/icons/arrow-right-blue.svg" class="ml-2 h-[14px] w-[14px]" alt=""></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -207,14 +207,14 @@ export default {
                             </div>
                         </div>
                         <a href=""
-                            class="text-base md:text-sm font-semibold border-b border-[#DEE4F1] md:border-none py-5 px-5 text-black w-full md:w-auto transition hover:text-[#0051FF]">Prices</a>
+                            class="text-base md:text-sm font-semibold border-b border-[#DEE4F1] md:border-none py-5 px-5 text-black w-full md:w-auto transition hover:text-cblue">Prices</a>
                         <NuxtLink to="/knowledgebase"
-                            class="text-base md:text-sm font-semibold border-b border-[#DEE4F1] md:border-none py-5 px-5 text-black w-full md:w-auto transition hover:text-[#0051FF]">Knowledge
+                            class="text-base md:text-sm font-semibold border-b border-[#DEE4F1] md:border-none py-5 px-5 text-black w-full md:w-auto transition hover:text-cblue">Knowledge
                             Base</NuxtLink>
                         <NuxtLink to="/news"
-                            class="text-base md:text-sm font-semibold border-b border-[#DEE4F1] md:border-none py-5 px-5 text-black w-full md:w-auto transition hover:text-[#0051FF]">News</NuxtLink>
+                            class="text-base md:text-sm font-semibold border-b border-[#DEE4F1] md:border-none py-5 px-5 text-black w-full md:w-auto transition hover:text-cblue">News</NuxtLink>
                         <NuxtLink to="/calculator"
-                            class="text-base w-full md:w-auto md:text-sm font-semibold py-5 px-5 text-black transition hover:text-[#0051FF]">Calculator</NuxtLink>
+                            class="text-base w-full md:w-auto md:text-sm font-semibold py-5 px-5 text-black transition hover:text-cblue">Calculator</NuxtLink>
                         <div class="w-full lg:w-auto header-lang hidden md:flex">
                             <form action="" class="text-left w-full lg:w-20">
                                 <div class="">
