@@ -14,18 +14,18 @@ export default {
                             const canvas = ctx.chart.ctx;
                             const gradient = canvas.createLinearGradient(0, 1200, 0, 0);
 
-                            gradient.addColorStop(1, '#EDFDF2');
-                            gradient.addColorStop(.5, '#EDFDF2');
+                            gradient.addColorStop(1, '#0051FF08');
+                            gradient.addColorStop(.5, '#0051FF08');
 
                             return gradient;
                         },
-                        lineTension: 0.4,
+                        // lineTension: 0.4,
                         pointRadius: 1,
                         pointHoverRadius: 1,
                         fill: true,
                         redraw: true,
                         borderColor: [
-                            '#3AD76F',
+                            '#0051FF',
 
                         ],
                         borderWidth: 2
