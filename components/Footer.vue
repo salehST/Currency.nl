@@ -79,9 +79,9 @@ methods:{
         <div class="container mx-auto md:max-w-screen-xl">
             <div class="flex md:flex-row justify-center md:justify-between flex-col">
                 <div class="mb-6 md:mb-0 md:basis-1/3 basis-full mx-auto md:mx-0 w-full text-center md:text-left">
-                    <a href="#" class="flex justify-center md:justify-start items-center md:text-left">
+                    <NuxtLink to="/" class="flex justify-center md:justify-start items-center md:text-left">
                         <img src="@/assets/img/logo.svg" class="w-[158px] h-[50px] mx-auto mb-5 md:mx-0" alt="logo" />
-                    </a>
+                    </NuxtLink>
                     <p class="text-xs font-normal leading-5 text-[#6B6C6F] sm:pr-9">
                     <span class="mb-1 block">Currency N.L </span>
                         support@currency.nl
@@ -115,22 +115,22 @@ methods:{
                         <h2 class="mb-6 text-base font-semibold text-black ">General</h2>
                         <ul class="text-xs font-normal leading-5 text-[#6B6C6F]">
                             <li class="mb-4">
-                                <a href="#" class="">Home</a>
+                                <NuxtLink to="/" class="">Home</NuxtLink>
                             </li>
                             <li class="mb-4">
-                                <a href="#" class="">Exchange</a>
+                                <NuxtLink to="/exchange" class="">Exchange</NuxtLink>
                             </li>
                             <li class="mb-4">
                                 <a href="#" class="">Prices</a>
                             </li>
                             <li class="mb-4">
-                                <a href="#" class="">Knowledge Base</a>
+                                <NuxtLink to="/knowlegebase" class="">Knowledge Base</NuxtLink>
                             </li>
                             <li class="mb-4">
-                                <a href="#" class="">News</a>
+                                <NuxtLink to="/news" class="">News</NuxtLink>
                             </li>
                             <li class="mb-4">
-                                <a href="#" class="">Calculator</a>
+                                <NuxtLink to="/calculator" class="">Calculator</NuxtLink>
                             </li>
                         </ul>
                     </div>

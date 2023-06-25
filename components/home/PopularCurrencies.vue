@@ -426,8 +426,10 @@ export default {
                 </button>
             </div>
             <div class="all-products-btn">
-                <a href="" class="text-cblue text-base font-semibold underline transition hover:no-underline">View All
+                <a href="" class="hidden md:flex text-cblue text-base font-semibold underline transition hover:no-underline">View All
                     Providers</a>
+                <a href="" class="flex md:hidden text-cblue text-base font-semibold underline transition hover:no-underline">View All
+            </a>
             </div>
         </div>
     </div>
