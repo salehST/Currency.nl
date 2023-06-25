@@ -1440,7 +1440,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
 /* Coder End */
 
 /* Coder Currency Start */
-.strick-line {
+/* .strick-line {
     position: relative;
     z-index: 2;
     width: auto;
@@ -1470,7 +1470,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
     bottom: 10px;
     left: 0;
     z-index: -1;
-}
+} */
 
 /* .right-part:after {
     content: "";
@@ -1794,6 +1794,9 @@ transition: 300ms;
         height: 370px;
         overflow: hidden;
     }
+    .page-heading h2 {
+        width: 72%;
+    }
     .mh-fixed:after {
         content: "";
         width: 100%;
@@ -1820,7 +1823,7 @@ transition: 300ms;
     }
     
     .ex-text {
-        padding: 16px 0;
+        padding: 16px 0 0;
         border-top: 1px solid #DEE4F1;
         border-bottom: 1px solid #DEE4F1;
         margin-bottom: 16px;

@@ -7,9 +7,9 @@
 <template>
 <section class="bg-white w-full p-10 md:p-12">
     <div class="container mx-auto max-w-screen-xl">  <!-- container start -->
-        <div class="call-to-action relative top-sec flex items-center justify-center mb-10">
+        <div class="call-to-action relative top-sec flex items-center justify-center">
             <div class="w-full text-center">
-                <h2 class=" text-[32px] text-primary md:text-5xl font-bold leading-9 md:leading-[57px] mb-5 flex items-center justify-center">
+                <h2 class=" text-[32px] text-primary md:text-5xl font-bold leading-9 md:leading-[57px] flex items-center justify-start md:justify-center">
                     <span class="strick-line-inline">News</span></h2>
             </div>
         </div>
@@ -26,15 +26,15 @@
                     </svg>
                     </NuxtLink>
                 </div>
-                <h1 class=" font-semibold text-5xl text-black mb-4 w-full md:w-11/12 leading-[57px]">Sports betting with crypto, is it allowed in the Netherlands?</h1>
+                <h1 class=" font-semibold text-[32px] lg:text-5xl text-primary mb-4 w-full md:w-11/12 md:leading-[57px]">Sports betting with crypto, is it allowed in the Netherlands?</h1>
             </div>
-        <div class="blog-news-slider flex flex-col md:flex-row items-stretch justify-between">
+        <div class="blog-news-slider flex gap-6 flex-col md:flex-row items-stretch justify-between">
            
             <div class=" w-full md:w-[72vw] lg:w-[849px]">
                 
                 <NewsDetailNewsInfo />
             </div>
-                <div class="md:w-[267px]">
+                <div class="w-full md:w-[267px]">
                     
                     <NewsDetailSideBar />
                 </div>

@@ -58,10 +58,10 @@
                 </div>
                 <div class="compare-prices-cta">
                     <div class=" px-4 py-9 bg-[#245FDE] rounded-lg">
-                        <img src="@/assets/img/compare-price-cta-img.svg" class="mb-6" alt="">
+                        <img src="@/assets/img/compare-price-cta-img.svg" class="mb-6 mx-auto lg:mx-0" alt="">
                         <h5 class=" font-bold text-white text-2xl mb-1.5">Cryptocurrency Prices</h5>
                         <p class=" font-normal text-white text-xs mb-6">We have 128 exchanges in the comparison tool that sell Binance USD. View and compare for more information.</p>
-                        <a class="bg-[#FFA800] group text-white text-base font-semibold flex whitespace-nowrap items-center py-3 px-2.5 rounded-full" href="">Compare Exchanges<img src="@/assets/img/arrow-right-white-bg.svg" class="h-5 w-5 ml-3 translate-x-0 transition group-hover:translate-x-1" alt=""></a>
+                        <a class="bg-[#FFA800] group text-white text-base font-semibold flex whitespace-nowrap items-center justify-center py-3 px-2.5 rounded-full" href="">Compare Exchanges<img src="@/assets/img/arrow-right-white-bg.svg" class="h-5 w-5 ml-3 translate-x-0 transition group-hover:translate-x-1" alt=""></a>
                     </div>
                 </div>
 </template>

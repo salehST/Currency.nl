@@ -16,7 +16,7 @@ module.exports = {
       },
       backgroundColor: {
           cblue: "#0051FF",        
-      }
+      },
     },
   },
   plugins: [],

@@ -36,13 +36,13 @@
             </span>
         </div> 
         <div class="mb-10">
-            <h2 class="font-semibold text-[32px] text-primary text-black">NFT project The Currency</h2>
+            <h2 class="font-semibold text-[32px] text-black">NFT project The Currency</h2>
             <p class="text-[#6B6C6F] text-sm font-normal leading-7 mb-4"> Binance USD concurrently operates in two blockchain networks. Since September 2019, first stablecoins have been issued in the Ethereum blockchain according to the ERC-20 standard. After a month, Binance has started issuing them in its Binance Chain according to the BEP-2 standard. This decision allowed implementing them into decentralized applications of two different blockchains.</p>
                 <p class="text-[#6B6C6F] text-sm font-normal leading-7">
 Token contracts are used to issue Binance USD, so the stablecoin is technically not a coin but a token with a stable price. BUSD tokens issued on different blockchains are incompatible. So it is possible to send them only to the addresses of the corresponding networks and only through wallets with support for the corresponding blockchain. To buy BUSD for the first time on the Binance exchange or the Paxos website, it is necessary to pass the KYC procedure. Verification is needed due to regulators’ requirements in terms of stablecoins and fiat currencies. </p>
         </div>
         <div class="mb-10">
-            <h2 class="font-semibold text-[32px] text-primary text-black">NFT or exchange for physical painting</h2>
+            <h2 class="font-semibold text-[32px] text-black">NFT or exchange for physical painting</h2>
             <p class="text-[#6B6C6F] text-sm font-normal leading-7 mb-4"> Binance USD concurrently operates in two blockchain networks. Since September 2019, first stablecoins have been issued in the Ethereum blockchain according to the ERC-20 standard. After a month, Binance has started issuing them in its Binance Chain according to the BEP-2 standard. This decision allowed implementing them into decentralized applications of two different blockchains.
             </p>
                 <p class="text-[#6B6C6F] text-sm font-normal leading-7 mb-4">
@@ -53,7 +53,7 @@ To buy BUSD for the first time on the Binance exchange or the Paxos website, it 
  </p>
         </div>
         <div class="mb-10">
-            <h2 class="font-semibold text-[32px] text-primary text-black">Burn from September 9th</h2>
+            <h2 class="font-semibold text-[32px] text-black">Burn from September 9th</h2>
             <p class="text-[#6B6C6F] text-sm font-normal leading-7 mb-4"> Payment options are often the important factor for buying BUSD when choosing an exchange. In the comparison tool we take this into account and we have put the best exchanges to buy BUSD at the top. Because most exchanges ask for an e-mail, telephone number and proof of identity when creating an account, it is useful to have these at hand. To buy BUSD for the first time on the Binance exchange or the Paxos website, it is necessary to pass the KYC procedure. Verification is needed due to regulators’ requirements in terms of stablecoins and fiat currencies. It is all simple when it comes to the exchange — just make deposits in any currency on an account and buy BUSD in any of three ways:
 Token contracts are used to issue Binance USD, so the stablecoin is technically not a coin but a token with a stable price. BUSD tokens issued on different blockchains are incompatible.</p>
                

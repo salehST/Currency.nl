@@ -1,8 +1,7 @@
 <template>
     <div class="filter-area max-w-[1068px] mx-auto">
         <div class="filter-inner">
-            <div
-                class="ex-markets flex flex-col lg:flex-row items-center justify-between border-b border-[#DEE4F1] pb-6 mb-3">
+            <div class="ex-markets flex flex-col lg:flex-row items-center justify-between border-b border-[#DEE4F1] pb-6 mb-3">
                 <div class="ex-btn-wrapper order-2 lg:order-1">
                     <div class="ex-btn-inner inline-flex items-center bg-[#D1D8E8] rounded-full">
                         <button type="button" class="ex-button">Crypto Markets</button>

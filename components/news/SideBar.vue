@@ -19,6 +19,31 @@
                         </form>
                     </div>
                 </div>
+                <div class=" mb-4 flex lg:hidden">
+                    <div class="w-full lg:w-auto">
+                        <form action="" class="text-left w-full lg:w-40 mx-auto md:mx-0">
+                            <div class="w-full lg:">
+                                <div class="no-label w-full lg:w-40 mx-auto md:mx-0">
+                                    <div class="select bg-white rounded-lg" id="">
+                                        <div class="selectBtn" data-type="firstOption">All </div>
+                                        <div class="selectDropdown">
+                                            <div class="option" data-value="all" data-type="firstOption">All</div>
+                                            <div class="option" data-type="secondOption" data-value="internet-tv">
+                                                Investing</div>
+                                            <div class="option" data-type="secondOption" data-value="internet-tv">
+                                                Mining</div>
+                                            <div class="option" data-type="secondOption" data-value="internet-tv">
+                                                Trading</div>
+                                            <div class="option" data-type="secondOption" data-value="internet-tv">
+                                                Exchanges
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
     <div class="bg-white rounded-2xl p-3 pb-7 mb-6">
                         <h4 class="font-semibold text-sm text-black mb-2">Recent News</h4>
                         <a href="" class="flex py-2 mb-3">
@@ -62,7 +87,7 @@
                         </a>
                     </div>
 
-                    <div class="bg-white rounded-2xl p-3 pb-7 mb-6">
+                    <div class="bg-white rounded-2xl p-3 pb-7">
                         <h4 class="font-semibold text-sm text-black mb-2">Recent News</h4>
                         <div class="inline-flex gap-1.5 flex-wrap">
                             <span class="text-black bg-[#E4E6EF] font-normal text-xs px-3 py-0.5 rounded-full mb-4">Investing</span>

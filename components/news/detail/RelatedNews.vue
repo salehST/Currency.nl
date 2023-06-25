@@ -9,12 +9,12 @@
 </a>
             </div>
             <div class="">
-                <div class="more-news grid grid-cols-3 gap-[25px]">
-            <div class="single-news bg-white p-4 rounded-2xl shadow transition hover:shadow-md w-[362px]">
+                <div class="more-news grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[25px]">
+                    <div class="single-news bg-white p-4 rounded-2xl shadow transition hover:shadow-md w-full md:w-[362px]">
                         <div class="inner-news">
-                            <div class="img-box flex justify-center items-center relative h-[188px] w-full bg-[#F5F8FF] mb-4">
-                                <div class="product-img">
-                                    <img class="object-cover w-auto rounded-t-lg h-auto mx-auto"
+                            <div class="img-box flex justify-center items-center relative  bg-[#F5F8FF] mb-4">
+                                <div class="product-img h-[188px] w-full overflow-hidden">
+                                    <img class="object-cover w-full rounded-t-lg h-full mx-auto"
                                         src="@/assets/img/news/01.png" alt="image">
                                 </div>
                                 <div class="news-tag bg-[#EBF1FF] px-[10px] py-[6px] rounded">
@@ -33,12 +33,12 @@
 </a>
                             </div>
                         </div>
-            </div>
-            <div class="single-news bg-white p-4 rounded-2xl shadow transition hover:shadow-md w-[362px]">
+    </div>
+    <div class="single-news bg-white p-4 rounded-2xl shadow transition hover:shadow-md w-full md:w-[362px]">
                         <div class="inner-news">
-                            <div class="img-box flex justify-center items-center relative h-[188px] w-full bg-[#F5F8FF] mb-4">
-                                <div class="product-img">
-                                    <img class="object-cover w-auto rounded-t-lg h-auto mx-auto"
+                            <div class="img-box flex justify-center items-center relative  bg-[#F5F8FF] mb-4">
+                                <div class="product-img h-[188px] w-full overflow-hidden">
+                                    <img class="object-cover w-full rounded-t-lg h-full mx-auto"
                                         src="@/assets/img/news/02.png" alt="image">
                                 </div>
                                 <div class="news-tag bg-[#EBF1FF] px-[10px] py-[6px] rounded">
@@ -57,12 +57,12 @@
 </a>
                             </div>
                         </div>
-            </div>
-            <div class="single-news bg-white p-4 rounded-2xl shadow transition hover:shadow-md w-[362px]">
+    </div>
+    <div class="single-news bg-white p-4 rounded-2xl shadow transition hover:shadow-md w-full md:w-[362px]">
                         <div class="inner-news">
-                            <div class="img-box flex justify-center items-center relative h-[188px] w-full bg-[#F5F8FF] mb-4">
-                                <div class="product-img">
-                                    <img class="object-cover w-auto rounded-t-lg h-auto mx-auto"
+                            <div class="img-box flex justify-center items-center relative  bg-[#F5F8FF] mb-4">
+                                <div class="product-img h-[188px] w-full overflow-hidden">
+                                    <img class="object-cover w-full rounded-t-lg h-full mx-auto"
                                         src="@/assets/img/news/03.png" alt="image">
                                 </div>
                                 <div class="news-tag bg-[#EBF1FF] px-[10px] py-[6px] rounded">
@@ -81,7 +81,7 @@
 </a>
                             </div>
                         </div>
-            </div>
+    </div>
             </div>
             </div>
         </div>

@@ -78,7 +78,7 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
 }
 </style>
 <template>
-    <div class="">
+    <div class=" mb-6">
         <swiper
                     :modules="modules"
                     :slides-per-view="1"
@@ -93,13 +93,13 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
                 <!-- slider-area start -->
                 <div class="slider-area">
                     
-                    <div class="h-[307px] md:h-[523px] w-full lg:w-[849px] relative overflow-hidden rounded-[15px] ">                       
+                    <div class="h-[460px] lg:h-[523px] w-full lg:w-[849px] relative overflow-hidden rounded-[15px] ">                       
                                     <span class="overlay"></span>
-                                    <span class="fixed-size overflow-hidden h-[307px] md:h-[523px] w-[96vw] md:w-[60vw] lg:w-[668px] rounded-[15px]">
-                                        <img class="object-cover absolute flex -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 w-auto h-auto mb-0" src="@/assets/img/news-01.jpg" alt="icon">
+                                    <span class="fixed-size overflow-hidden h-[460px] lg:h-[523px] w-[96vw] md:w-[60vw] lg:w-[668px] rounded-[15px]">
+                                        <img class="object-cover top-0 absolute flex  w-full h-full inset-x-auto mb-0" src="@/assets/img/news-01.jpg" alt="icon">
                                     </span>
                                     <!-- <img src="@/assets/img/slider/001.jpg" class="absolute h-[362px] lg:h-auto w-full flex -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."> -->
-                                    <div class="inner-content w-full z-20 grid grid-cols-1 gap-1 sm:gap-4 items-baseline h-[307px] md:h-[523px]">
+                                    <div class="inner-content w-full z-20 grid grid-cols-1 gap-1 sm:gap-4 items-baseline h-[460px] lg:h-[523px]">
                                         <div class="">
                                             <div class="news-tags flex flex-nowrap items-center justify-start"> 
                                                 <a href="#">
@@ -108,7 +108,7 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
                                             </div>
                                         </div>
                                         <div class="bottom-content text-left flex flex-col mt-14">
-                                                <h2 class="text-2xl md:text-[32px] text-primary font-bold text-white w-[290px] sm:w-[488px] leading-9 mb-3">Sports betting with crypto, is it allowed in the Netherlands?</h2>
+                                                <h2 class="text-2xl md:text-[32px] font-bold text-white w-[290px] sm:w-[488px] leading-9 mb-3">Sports betting with crypto, is it allowed in the Netherlands?</h2>
                                                 <p class="text-[#D9D9D9] text-base font-normal">There is little more fun than betting on an exciting match and if you invite a few friends or family members, it quickly becomes a fun battle. You would prefer to use your crypto to bet on your match and you have seen that that is already an option with some foreign...</p>
                                             
                                         <div class="flex items-center justify-between mt-10">
@@ -129,10 +129,10 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
                 <swiper-slide>
                 <!-- slider-area start -->
                 <div class="slider-area">                    
-                    <div class="h-[307px] md:h-[523px] w-full lg:w-[849px] relative overflow-hidden rounded-[15px] ">                       
+                    <div class="h-[460px] md:h-[523px] w-full lg:w-[849px] relative overflow-hidden rounded-[15px] ">                       
                                     <span class="overlay"></span>
-                                    <span class="fixed-size overflow-hidden h-[307px] md:h-[523px] w-[96vw] md:w-[60vw] lg:w-[668px] rounded-[15px]">
-                                     <img class="object-cover absolute flex -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 w-auto h-auto mb-0" src="@/assets/img/news-01.jpg" alt="icon">
+                                    <span class="fixed-size overflow-hidden h-[460px] md:h-[523px] w-[96vw] md:w-[60vw] lg:w-[668px] rounded-[15px]">
+                                     <img class="object-cover absolute flex top-0  w-full h-full mb-0" src="@/assets/img/news-01.jpg" alt="icon">
                                 </span>
                                     <!-- <img src="@/assets/img/slider/001.jpg" class="absolute h-[362px] lg:h-auto w-full flex -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."> -->
                                     <div class="inner-content w-full z-20 grid grid-cols-1 gap-1 sm:gap-4 items-baseline h-[307px] md:h-[523px]">
@@ -142,7 +142,7 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
                                                 </div>
                                         </div>
                                             <div class="bottom-content text-left flex flex-col mt-14">
-                                                <h2 class="text-2xl md:text-[32px] text-primary font-bold text-white w-[290px] sm:w-[488px] leading-9 mb-3">Sports betting with crypto, is it allowed in the Netherlands?</h2>
+                                                <h2 class="text-2xl md:text-[32px] font-bold text-white w-[290px] sm:w-[488px] leading-9 mb-3">Sports betting with crypto, is it allowed in the Netherlands?</h2>
                                                 <p class="text-[#D9D9D9] text-base font-normal">There is little more fun than betting on an exciting match and if you invite a few friends or family members, it quickly becomes a fun battle. You would prefer to use your crypto to bet on your match and you have seen that that is already an option with some foreign...</p>
                                             
                                             <div class="flex items-center justify-between mt-10">
@@ -164,20 +164,20 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
                 <!-- slider-area start -->
                 <div class="slider-area">
                     
-                    <div class="h-[307px] md:h-[523px] w-full lg:w-[849px] relative overflow-hidden rounded-[15px] ">                       
+                    <div class="h-[460px] md:h-[523px] w-full lg:w-[849px] relative overflow-hidden rounded-[15px] ">                       
                                     <span class="overlay"></span>
-                                    <span class="fixed-size overflow-hidden h-[307px] md:h-[523px] w-[96vw] md:w-[60vw] lg:w-[668px] rounded-[15px]">
-                                     <img class="object-cover absolute flex -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 w-auto h-auto mb-0" src="@/assets/img/news-01.jpg" alt="icon">
+                                    <span class="fixed-size overflow-hidden h-[460px] lg:h-[523px] w-[96vw] md:w-[60vw] lg:w-[668px] rounded-[15px]">
+                                     <img class="object-cover absolute flex top-0  w-full h-full mb-0" src="@/assets/img/news-01.jpg" alt="icon">
                                 </span>
                                     <!-- <img src="@/assets/img/slider/001.jpg" class="absolute h-[362px] lg:h-auto w-full flex -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."> -->
-                                    <div class="inner-content w-full z-20 grid grid-cols-1 gap-1 sm:gap-4 items-baseline h-[307px] md:h-[523px]">
+                                    <div class="inner-content w-full z-20 grid grid-cols-1 gap-1 sm:gap-4 items-baseline h-[460px] lg:h-[523px]">
                                         <div class="">
                                             <div class="news-tags flex flex-nowrap items-center justify-start"> 
                                                     <a href="#"><span class="w-fit bg-[#EBF1FF] text-cblue text-base font-semibold mr-1 px-2.5 py-1.5 rounded whitespace-nowrap">NEWS</span></a>
                                                 </div>
                                         </div>
                                             <div class="bottom-content text-left flex flex-col mt-14">
-                                                <h2 class="text-2xl md:text-[32px] text-primary font-bold text-white w-[290px] sm:w-[488px] leading-9 mb-3">Sports betting with crypto, is it allowed in the Netherlands?</h2>
+                                                <h2 class="text-2xl md:text-[32px] font-bold text-white w-[290px] sm:w-[488px] leading-9 mb-3">Sports betting with crypto, is it allowed in the Netherlands?</h2>
                                                 <p class="text-[#D9D9D9] text-base font-normal">There is little more fun than betting on an exciting match and if you invite a few friends or family members, it quickly becomes a fun battle. You would prefer to use your crypto to bet on your match and you have seen that that is already an option with some foreign...</p>
                                             
                                             <div class="flex items-center justify-between mt-10">

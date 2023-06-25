@@ -76,7 +76,7 @@ methods:{
 <template>
     <!-- footer start -->
     <footer class="p-4 md:p-9 bg-white sm:p-6">
-        <div class="container mx-auto max-w-screen-xl">
+        <div class="container mx-auto md:max-w-screen-xl">
             <div class="flex md:flex-row justify-center md:justify-between flex-col">
                 <div class="mb-6 md:mb-0 md:basis-1/3 basis-full mx-auto md:mx-0 w-full text-center md:text-left">
                     <a href="#" class="flex justify-center md:justify-start items-center md:text-left">

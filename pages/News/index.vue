@@ -55,10 +55,10 @@ on('click', '.option', item => {
 
 <template>
 <section class="bg-white w-full p-10 md:p-12">
-    <div class="container mx-auto max-w-screen-xl page-heading">  <!-- container start -->
-        <div class="call-to-action relative top-sec flex items-center justify-center mb-10">
+    <div class="container mx-auto max-w-screen-xl">  <!-- container start -->
+        <div class="call-to-action relative top-sec flex items-center justify-center">
             <div class="w-full text-left md:text-center">
-                <h2 class=" text-[32px] text-primary md:text-5xl font-bold leading-9 md:leading-[57px] mb-5 flex items-center justify-start md:justify-center">
+                <h2 class=" text-[32px] text-primary md:text-5xl font-bold leading-9 md:leading-[57px] flex items-center justify-start md:justify-center">
                     News</h2>
             </div>
         </div>
@@ -66,14 +66,15 @@ on('click', '.option', item => {
 </section>
 <section class="w-full bg-[#F1F5FE] p-10 md:p-12 md:pt-16">
     <div class="container mx-auto max-w-screen-xl">  <!-- container start -->
-        <div class="blog-news-slider flex flex-col md:flex-row items-stretch justify-between">
-            <div class="h-[307px] md:h-[523px] w-full md:w-[72vw] lg:w-[849px]">
-                <div class=" mb-4">
+        <div class="blog-news-slider flex gap-6 flex-col lg:flex-row items-stretch justify-between">
+            <div class="order-2 md:order-1 w-full lg:w-[849px]">
+             
+                <div class="hidden lg:flex mb-4">
                     <div class="w-full lg:w-auto">
-                        <form action="" class="text-left w-40 mx-auto md:mx-0">
-                            <div class="">
-                                <div class="no-label w-40  mx-auto md:mx-0">
-                                    <div class="select bg-white rounded-md" id="">
+                        <form action="" class="text-left w-full lg:w-40 mx-auto md:mx-0">
+                            <div class="w-full lg:">
+                                <div class="no-label w-full lg:w-40 mx-auto md:mx-0">
+                                    <div class="select bg-white rounded-lg" id="">
                                         <div class="selectBtn" data-type="firstOption">All </div>
                                         <div class="selectDropdown">
                                             <div class="option" data-value="all" data-type="firstOption">All</div>
@@ -103,7 +104,7 @@ on('click', '.option', item => {
                 </div>
                 <NewsTopSlider />
             </div>
-                <div class="md:w-[267px]">
+                <div class="w-full lg:w-[267px] order1 md:order-2">
                     
                     <NewsSideBar />
                 </div>
