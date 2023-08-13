@@ -80,7 +80,7 @@ methods:{
             <div class="flex md:flex-row justify-center md:justify-between flex-col">
                 <div class="mb-6 md:mb-0 md:basis-1/3 basis-full mx-auto md:mx-0 w-full text-center md:text-left">
                     <NuxtLink to="/" class="flex justify-center md:justify-start items-center md:text-left">
-                        <img src="@/assets/img/logo.svg" class="w-[158px] h-[50px] mx-auto mb-5 md:mx-0" alt="logo" />
+                        <img src="@/assets/img/logo.svg" class="w-[192px] h-[50px] mx-auto mb-5 md:mx-0" alt="logo" />
                     </NuxtLink>
                     <p class="text-xs font-normal leading-5 text-[#6B6C6F] sm:pr-9">
                     <span class="mb-1 block">Currency N.L </span>

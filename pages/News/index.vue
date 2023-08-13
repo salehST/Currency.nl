@@ -93,14 +93,7 @@ on('click', '.option', item => {
                             </div>
                         </form>
                     </div>
-                    <!-- <ul class="flex items-center">
-                        <li><a href="" class="active-state text-base font-normal text-black transition hover:text-cblue pr-2.5">All</a></li>
-                        <li><a href="" class="text-base font-normal text-black transition hover:text-cblue  px-6 border-x border-[#E7EBF4]">Investing</a></li>
-                        <li><a href="" class="text-base font-normal text-black transition hover:text-cblue px-6 border-x border-[#E7EBF4]">Mining</a></li>
-                        <li><a href="" class="text-base font-normal text-black transition hover:text-cblue px-6 border-x border-[#E7EBF4]">Trading</a></li>
-                        <li><a href="" class="text-base font-normal text-black transition hover:text-cblue px-6 border-x border-[#E7EBF4]">Exchanges</a></li>
-                        <li><a href="" class="text-base font-normal text-black transition hover:text-cblue pl-6">Cryptocurrency</a></li>
-                    </ul> -->
+                    
                 </div>
                 <NewsTopSlider />
             </div>

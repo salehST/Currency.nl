@@ -61,7 +61,7 @@ export default {
                     <div class="post-content mh-fixed">
                         <div class="mb-10">
 
-                            <h2 class="font-semibold text-[32px] text-black">Introduction</h2>
+                            <h2 class="font-semibold text-[32px] font- text-black">Introduction</h2>
                             <p class="text-[#6B6C6F] text-sm font-normal leading-7">Bitvavo currently has nearly 90 different
                                 cryptocurrencies on the platform. This is a lot smaller compared to others, but this is a
                                 conscious choice by Bitvavo. When a project is added to the platform, it must have proven itself

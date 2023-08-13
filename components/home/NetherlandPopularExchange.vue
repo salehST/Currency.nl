@@ -113,14 +113,12 @@ export default {
 </style>
 <template>
         <div class="flex items-center justify-between mb-10 mt-24 md:mt-36">
-            <div class="w-full md:w-7/12">
+            <div class="w-full">
                 <h2 class=" text-[32px] text-primary md:text-5xl font-bold leading-9 md:leading-[57px] mb-5 ">Most <span class="strick-line-inline"> popular</span> exchanges in the Netherlands
                     </h2>
                 <p class="text-[#6B6C6F] text-xl font-normal leading-8 pr-10">Monitor capitalization, price, daily volume, and price changes of any coin in real time!</p>
             </div>
-            <div class="hidden md:flex image-area w-3/12">
-                <img src="@/assets/img/cu-stocks-2.svg" class="w-full h-auto" alt="">
-            </div>
+            
         </div>
 
         <div class="product-table-wrapper">

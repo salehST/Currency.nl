@@ -18,15 +18,6 @@ export default defineNuxtConfig({
               {
                 // src: "js/main.js",
               },
-              // {
-              //   src: "http://code.jquery.com/jquery-1.11.0.min.js",
-              // },
-              // {
-              //   src: "http://code.jquery.com/jquery-migrate-1.2.1.min.js",
-              // },
-              // {
-              //   src: "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js",
-              // },
             ],
           }
         },

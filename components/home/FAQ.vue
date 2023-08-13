@@ -1,13 +1,11 @@
 <template>
         <div class="flex items-center justify-between mb-10 mt-10 md:mt-36">
-            <div class="w-full md:w-7/12">
+            <div class="w-full">
                 <h2 class="w-9/12 md:w-full text-[32px] text-primary md:text-5xl font-bold leading-9 md:leading-[57px] mb-5 "><span class="strick-line-inline">Frequently</span>  Asked Questions
                     </h2>
                 <p class="text-[#6B6C6F] text-sm md:text-xl font-normal leading-6 md:leading-8 pr-10">Monitor capitalization, price, daily volume, and price changes of any coin in real time!</p>
             </div>
-            <div class="image-area hidden md:block w-3/12">
-                <img src="@/assets/img/faq.svg" class="w-full h-auto" alt="">
-            </div>
+            
         </div>
         <div>
     <div v-for="(section, index) in accordionSections" :key="index" class="mb-3 pb-5 bg-white rounded-xl overflow-hidden">
@@ -32,9 +30,6 @@
           }" class="h-5 w-5 transition-transform duration-300" width="17" height="13" viewBox="0 0 17 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M10.2944 11.619C9.49534 12.7087 7.86794 12.7087 7.06883 11.619L1.01564 3.36461C0.0468677 2.04356 0.99025 0.181885 2.62845 0.181885L14.7348 0.181886C16.373 0.181886 17.3164 2.04356 16.3476 3.36461L10.2944 11.619Z" fill="black"/>
               </svg>
-              <!-- <svg v-else width="13" height="18" viewBox="0 0 13 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M1.06292 10.6128C-0.0267749 9.8137 -0.0267748 8.1863 1.06292 7.38719L9.31727 1.334C10.6383 0.365227 12.5 1.30861 12.5 2.94681L12.5 15.0532C12.5 16.6914 10.6383 17.6348 9.31727 16.666L1.06292 10.6128Z" fill="black"/>
-              </svg> -->
       </button>
       <div :class="{ 'max-h-0 pt-0 ': activeSection !== index, 'max-h-[1000px] pt-6 ': activeSection === index }"
         :style="{ transition: activeSection === index ? 'all 250ms ease-in-out' : 'all 250ms ease-in-out' }"

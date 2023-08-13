@@ -35,6 +35,151 @@
                 <div class="filter-options w-full lg:w-56">
                     <div class="filter-wrapper">
                         <div class="filter-option-list bg-white rounded-[10px] mb-6">
+                            <!-- <h4 class="text-sm font-semibold text-black p-4 border-b border-[#DEE4F1] flex items-center">
+                                <svg class="mr-2" width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M2.40039 2.39998C2.40039 1.95815 2.75856 1.59998 3.20039 1.59998H12.8004C13.2422 1.59998 13.6004 1.95815 13.6004 2.39998V4.79998C13.6004 5.01215 13.5161 5.21563 13.3661 5.36566L9.60039 9.13135V12C9.60039 12.2121 9.51611 12.4156 9.36608 12.5657L7.76608 14.1657C7.53728 14.3945 7.19318 14.4629 6.89424 14.3391C6.5953 14.2153 6.40039 13.9235 6.40039 13.6V9.13135L2.63471 5.36566C2.48468 5.21563 2.40039 5.01215 2.40039 4.79998V2.39998Z"
+                                        fill="black" />
+                                </svg>
+                                Filters
+                            </h4>
+                            <div>
+    <label>
+      <input
+        type="checkbox"
+        class="form-checkbox h-5 w-5 text-indigo-600"
+        v-model="checkbox1"
+      />
+      <span class="ml-2 text-gray-700">Checkbox 1</span>
+    </label>
+    <br>
+    <label>
+      <input
+        type="checkbox"
+        class="form-checkbox h-5 w-5 text-indigo-600"
+        v-model="checkbox2"
+      />
+      <span class="ml-2 text-gray-700">Checkbox 2</span>
+    </label>
+    <br>
+    <label>
+      <input
+        type="checkbox"
+        class="form-checkbox h-5 w-5 text-indigo-600"
+        v-model="checkbox3"
+      />
+      <span class="ml-2 text-gray-700">Checkbox 3</span>
+    </label>
+    <br>
+    <label>
+      <input
+        type="checkbox"
+        class="form-checkbox h-5 w-5 text-indigo-600"
+        v-model="checkbox4"
+      />
+      <span class="ml-2 text-gray-700">Checkbox 4</span>
+    </label>
+    
+    <button
+      @click="clearSelected"
+      class="mt-4 bg-red-500 hover:bg-red-600 text-white py-2 px-4 rounded"
+    >
+      Clear Selected
+    </button>
+  </div> -->
+
+  <!-- <div>
+    <div v-for="(section, index) in accordionSections" :key="index" class="">                            
+      <div class="p-4 border-b border-[#DEE4F1] cursor-pointer">
+        <button
+          @click="toggleSection(index)"
+          :class="{
+            'bg-white': activeSection === index,
+            'bg-white': activeSection !== index,
+          }"
+          class="flex items-center justify-between w-full"
+        >
+          <span>{{ section.title }}</span>
+          <svg
+            :class="{
+              'rotate-0': activeSection !== index,
+              'rotate-90': activeSection === index
+            }"
+            class="filter-arrow transition-transform duration-300"
+            width="20" height="20" viewBox="0 0 20 20" fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M5.29289 7.29289C5.68342 6.90237 6.31658 6.90237 6.70711 7.29289L10 10.5858L13.2929 7.29289C13.6834 6.90237 14.3166 6.90237 14.7071 7.29289C15.0976 7.68342 15.0976 8.31658 14.7071 8.70711L10.7071 12.7071C10.3166 13.0976 9.68342 13.0976 9.29289 12.7071L5.29289 8.70711C4.90237 8.31658 4.90237 7.68342 5.29289 7.29289Z"
+              fill="#424242"
+            />
+          </svg>
+        </button>
+        <div
+          :class="{
+            'max-h-0 pt-0': activeSection !== index,
+            'max-h-[1000px] pt-6': activeSection === index
+          }"
+          :style="{
+            transition: activeSection === index ? 'all 250ms ease-in-out' : 'all 250ms ease-in-out'
+          }"
+          class="bg-white transition-all duration-300 overflow-hidden"
+        >
+          <component :is="section.component" v-model="section.model" v-if="activeSection === index"></component>
+          <button
+            v-if="activeSection === index"
+            @click="clearSelected(index)"
+            class="mt-4 bg-red-500 hover:bg-red-600 text-white py-2 px-4 rounded"
+          >
+            Clear Selected
+          </button>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+<!-- <div v-for="(section, index) in accordionSections" :key="index" class="">                            
+  <div class="p-4 border-b border-[#DEE4F1] cursor-pointer">
+    <button
+      @click="toggleSection(index)"
+      :class="{
+        'bg-white': activeSection === index,
+        'bg-white': activeSection !== index,
+      }"
+      class="flex items-center justify-between w-full"
+    >
+      <span>{{ section.title }}</span>
+      <svg
+        :class="{
+          'rotate-0': activeSection !== index,
+          'rotate-90': activeSection === index
+        }"
+        class="filter-arrow transition-transform duration-300"
+        width="20" height="20" viewBox="0 0 20 20" fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path fill-rule="evenodd" clip-rule="evenodd"
+          d="M5.29289 7.29289C5.68342 6.90237 6.31658 6.90237 6.70711 7.29289L10 10.5858L13.2929 7.29289C13.6834 6.90237 14.3166 6.90237 14.7071 7.29289C15.0976 7.68342 15.0976 8.31658 14.7071 8.70711L10.7071 12.7071C10.3166 13.0976 9.68342 13.0976 9.29289 12.7071L5.29289 8.70711C4.90237 8.31658 4.90237 7.68342 5.29289 7.29289Z"
+          fill="#424242"
+        />
+      </svg>
+    </button>
+    <div
+      :class="{
+        'max-h-0 pt-0': activeSection !== index,
+        'max-h-[1000px] pt-6': activeSection === index
+      }"
+      :style="{
+        transition: activeSection === index ? 'all 250ms ease-in-out' : 'all 250ms ease-in-out'
+      }"
+      class="bg-white transition-all duration-300 overflow-hidden"
+      v-html="section.content"
+    ></div>
+  </div>
+</div> -->
+                        </div>
+                        <div class="filter-option-list bg-white rounded-[10px] mb-6">
                             <h4 class="text-sm font-semibold text-black p-4 border-b border-[#DEE4F1] flex items-center">
                                 <svg class="mr-2" width="16" height="16" viewBox="0 0 16 16" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
@@ -99,6 +244,7 @@
                                 </svg>
                             </div>
                         </div>
+
                         <div class="bg-[#1F3157] rounded-[10px]">
                             <h4 class="text-sm font-semibold text-white p-4 flex items-center">
                                 Exchanges Compare</h4>
@@ -771,4 +917,108 @@
             </div>
         </div>
     </div>
-</div></template>
+</div>
+</template>
+<style scoped>
+svg.rotate-90 {
+  transform: rotate(90deg);
+}
+
+svg.rotate-0 {
+  transform: rotate(0deg);
+}
+@media only screen and (max-width: 769px) {
+.faq-sec-title {
+    white-space: nowrap;
+    width: 250px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+}
+
+</style>
+<script>
+export default {
+  data() {
+    return {
+      activeSection: 0,
+      accordionSections: [
+        {
+          title: 'Cryptocurrencies',
+          component: 'checkboxes-component',
+          model: {
+            checkbox1: false,
+            checkbox2: false,
+            checkbox3: false,
+            checkbox4: false,
+          },
+        },
+        {
+          title: 'Cryptocurrencies 2',
+          component: 'checkboxes-component',
+          model: {
+            checkbox1: false,
+            checkbox2: false,
+            checkbox3: false,
+            checkbox4: false,
+          },
+        },
+        // Add other sections here...
+      ],
+    };
+  },
+  components: {
+    'checkboxes-component': {
+      data() {
+        return {
+          checkboxes: [
+            { id: 'checkbox1', label: 'Checkbox 1' },
+            { id: 'checkbox2', label: 'Checkbox 2' },
+            { id: 'checkbox3', label: 'Checkbox 3' },
+            { id: 'checkbox4', label: 'Checkbox 4' },
+          ],
+        };
+      },
+      template: `
+        <div>
+          <label v-for="checkbox in checkboxes" :key="checkbox.id">
+            <input
+              type="checkbox"
+              class="form-checkbox h-5 w-5 text-indigo-600"
+              :id="checkbox.id"
+              v-model="checkboxesModel[checkbox.id]"
+            />
+            <span class="ml-2 text-gray-700">{{ checkbox.label }}</span>
+          </label>
+        </div>
+      `,
+      props: ['value'],
+      computed: {
+        checkboxesModel: {
+          get() {
+            return this.value;
+          },
+          set(newValue) {
+            this.$emit('input', newValue);
+          },
+        },
+      },
+    },
+  },
+  methods: {
+    toggleSection(index) {
+      if (this.activeSection === index) {
+        this.activeSection = null;
+      } else {
+        this.activeSection = index;
+      }
+    },
+    clearSelected(index) {
+      const model = this.accordionSections[index].model;
+      Object.keys(model).forEach((key) => {
+        model[key] = false;
+      });
+    },
+  },
+};
+</script>

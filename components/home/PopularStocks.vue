@@ -105,13 +105,10 @@ export default {
 </style>
 <template>
         <div class="hidden md:flex items-center justify-between mb-10 mt-10 md:mt-36">
-            <div class="w-full md:w-7/12">
+            <div class="w-full">
                 <h2 class=" text-[32px] text-primary md:text-5xl font-bold leading-9 md:leading-[57px] mb-5 flex items-center">
                     <span class="strick-line-inline">Popular Stocks in</span> 2023</h2>
                 <p class="text-[#6B6C6F] text-xl font-normal leading-8 pr-10">Monitor capitalization, price, daily volume, and price changes of any coin in real time. Here are some ideas for the best stocks to consider buying right now.</p>
-            </div>
-            <div class="hidden md:flex image-area w-3/12">
-                <img src="@/assets/img/cu-stocks.svg" class="w-full h-auto" alt="">
             </div>
         </div>
 

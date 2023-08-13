@@ -729,10 +729,7 @@ on('click', '.option', item => {
                             </div>
                         </div>
 
-                        <a href=""
-                                                class="group text-base text-cblue font-medium flex items-center justify-center mt-6">All Brokers <img src="@/assets/img/arrow-right-blue.svg"
-                                                    class="ml-1 translate-x-0 transition group-hover:translate-x-1"
-                                                    alt=""></a>
+                        <a href="" class="group text-base text-cblue font-medium flex items-center justify-center mt-6">All Brokers <img src="@/assets/img/arrow-right-blue.svg" class="ml-1 translate-x-0 transition group-hover:translate-x-1" alt=""></a>
                     </div>
 
                 </div>

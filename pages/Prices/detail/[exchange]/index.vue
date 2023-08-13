@@ -871,7 +871,7 @@ export default {
                 </div>
 
             </div>
-            <div class="call-to-action full-width relative p-6 mt-9 md:mt-10">
+            <div class="call-to-action full-width relative mt-9 md:mt-10">
                 <div class="cta-shadow">
                     <div class="cta-inner px-14 py-10">
                         <div class=" text-left w-auto mx-auto flex items-center justify-between">
@@ -893,4 +893,5 @@ export default {
                 </div>
         </div>
     </div>
-</section></template>
+</section>
+</template>
